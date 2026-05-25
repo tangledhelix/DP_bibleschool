@@ -2,7 +2,7 @@
 
 
 
-/*
+/X
 LITTLE BLUE BOOK NO. <b>706</b>
 Edited by E. Haldeman-Julius
 
@@ -17,25 +17,25 @@ Franklin Steiner
 
 HALDEMAN-JULIUS COMPANY
 GIRARD, KANSAS
-*/
+X/
 
 
 
 
-/*
+/X
 Copyright, 1924,
 Haldeman-Julius Company.
 
 PRINTED IN THE UNITED STATES OF AMERICA
-*/
+X/
 
 
 
 
-/*
+/X
 THE BIBLE: SHOULD IT BE IN THE
 SCHOOL ROOM?
-*/
+X/
 
 
 
