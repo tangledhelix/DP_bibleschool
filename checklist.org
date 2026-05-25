@@ -106,27 +106,27 @@ Instructions for ~/* */~ and ~/# #/~ blocks:
   - Apply specific [[https://www.pgdp.net/wiki/PPTools/Guiguts/Guiguts_Manual/Tools_Menu#Block_Quote_Indent_and_Margins][margin values]] if desired
 - [X] Find and fix any single-asterisk Proofer Comments: Search regex ~\[\*[^*]~
 - [X] ~Search → Find Proofer Comments~. Resolve all proofer's notes.
-- [ ] ~Tools → Unmatched → Block Markup~
-- [ ] ~Tools → Unmatched → DP Markup~
-- [ ] Search ~(</i>)([!?;:])~ & replace ~\2\1~ to find punct that should move inside quotes
-- [ ] Use ~Tools → Unmatched → Brackets~ to check each type of bracket and markup.
+- [X] ~Tools → Unmatched → Block Markup~
+- [X] ~Tools → Unmatched → DP Markup~
+- [X] Search ~(</i>)([!?;:])~ & replace ~\2\1~ to find punct that should move inside quotes
+- [X] Use ~Tools → Unmatched → Brackets~ to check each type of bracket and markup.
   - Do not omit the lowly parenthesis, often mis-scanned as curly-brace.
-- [ ] Look for malformed thought-breaks (5 stars). Regex: ~\*\s*\*\s*\*\s*\*\s*\*~
+- [X] Look for malformed thought-breaks (5 stars). Regex: ~\*\s*\*\s*\*\s*\*\s*\*~
 *** Transliterations
-- [ ] Check for non-Latin script tags, handle as appropriate. ~\[(Greek|Hebrew|Arabic|Cyrillic)~
+- [X] Check for non-Latin script tags, handle as appropriate. ~\[(Greek|Hebrew|Arabic|Cyrillic)~
 *** Fix Footnotes
-- [ ] Use ~Tools → Footnote Fixup~. This will help you validate and move any footnotes.
+- [X] Use ~Tools → Footnote Fixup~. This will help you validate and move any footnotes.
   - ~Next / Prev FN~ to navigate
   - Look for ~*~ and use ~Join Selected FN to Previous~ to join them
   - THERE SHOULD BE NO SUSPECTS AT TOP OF WINDOW
     - Exception: sometimes a footnote is really long
     - Exception: multiple anchors per footnote can confuse it?
-- [ ] Move footnotes between paragraphs
+- [X] Move footnotes between paragraphs
   - ~Footnote Fixup~, ~Re-run~
   - ~All to Number~, ~Reindex~
   - ~Re-run~, ~Move FNs to Paragraphs~
-- [ ] Search for blocks: regex (no case match) ~^/[#*$PCRFLXI]~ and move footnotes outside of blocks as appropriate
-- [ ] Depending on book, move footnotes to end of chapters, or end of book (use Footnote Fixup)
+- [X] Search for blocks: regex (no case match) ~^/[#*$PCRFLXI]~ and move footnotes outside of blocks as appropriate
+- [X] Depending on book, move footnotes to end of chapters, or end of book (use Footnote Fixup)
 *** Fixup Illustration locations
 - [ ] Use ~Tools → Illustration Fixup~ to move illos between paragraphs.
   - Note the "Preserve Illo's Page Number" checkbox - using this will optimize for the page number of the illo and may dislocate the page numbering of text. Probably better to not use it for midparagraph images?
