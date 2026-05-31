@@ -3,7 +3,7 @@
 
 
 /X
-LITTLE BLUE BOOK NO. <b>706</b>
+LITTLE BLUE BOOK NO. =706=
 Edited by E. Haldeman-Julius
 
 The Bible: Should It Be in
@@ -74,12 +74,12 @@ SCHOOL ROOM?
 
 CHAPTER I
 
-<i>The Bible and the Sects--Shall Any Version of
+_The Bible and the Sects--Shall Any Version of
 the Book Be Placed in This Country’s
-Common Schools?</i>
+Common Schools?_
 
 
-<sc>A Statement of the Case.</sc> A stupendous effort
+A STATEMENT OF THE CASE. A stupendous effort
 is now being nationally made by a particular
 and special class of our citizens, to place
 the Bible, the text book of the Christian religion,
@@ -102,7 +102,7 @@ the Bible by law causes us to inquire seriously
 into the question. Then the intense opposition
 of religionists as well as of those professing no
 religion in particular, causes us to conclude
-that the <i>propriety</i> of such an inclusion in our
+that the _propriety_ of such an inclusion in our
 public school instruction is the main issue to
 be considered.
 
@@ -125,9 +125,9 @@ think themselves able to put it over, would
 make Bible reading compulsory. Should they
 fail in this, they are agreeable that it should
 be read at the discretion of the teacher. Should
-they still fail, they will ask that <i>extracts</i> be
+they still fail, they will ask that _extracts_ be
 read. As a last resort, they will plead that it
-be not <i>excluded</i> and that it be read “without
+be not _excluded_ and that it be read “without
 comment.” They are even willing to concede
 that no child shall be compelled to take part
 in the Bible reading exercise against the will
@@ -157,7 +157,7 @@ orthodox and conventional. Yet they, a minority,
 would force their Bible by law upon all.]
 
 
-<sc>Is the Bible a Religious and Sectarian Book?</sc>
+IS THE BIBLE A RELIGIOUS AND SECTARIAN BOOK?
 
 It is not our purpose to take part in any of
 the theological controversies that in the past
@@ -201,7 +201,7 @@ We are aware that a class of modern thinkers
 define and understand religion differently,
 as does R. B. Westbrook in The Eliminator,
 page 12: “We use the word religion as it was
-used by Cicero, in the sense of <i>Scruple</i>, implying
+used by Cicero, in the sense of _Scruple_, implying
 the consciousness of a natural obligation
 wholly irrespective of what one may believe
 concerning the gods.”
@@ -238,7 +238,7 @@ worthy of worship.
 The sermon on the mount, which is perhaps
 more free from strict religious teaching than
 any other portion of the Bible, yet says, “Seek
-ye <i>first</i> the kingdom of God and <i>his righteousness</i>
+ye _first_ the kingdom of God and _his righteousness_
 and all these things shall be added unto
 you” (Matt. vi, 33). Here, again, the Jewish
 God is referred to. The most beautiful of
@@ -246,7 +246,7 @@ Jesus’ teachings are his eulogy and defense of
 children. Even here he strictly maintains religious
 doctrines, as when he says, in Matthew
 xviii, 6: “But whoso shall offend one of these
-little ones <i>which believe in me</i>,” etc.
+little ones _which believe in me_,” etc.
 
 “In thus looking at the Bible from a distinctly
 religious point of view, we are in perfect
@@ -281,8 +281,8 @@ religion. Prof. Max Müller, perhaps the greatest
 authority upon the science of religion, has
 said: “Religion is a mental faculty which, independent
 of, nay, in spite of, sense and reason,
-enables man to apprehend the infinite <i>under
-different names and disguises</i>.”
+enables man to apprehend the infinite _under
+different names and disguises_.”
 
 Hence, man, in an effort to understand the
 infinite, has formed not one but many religions;
@@ -355,21 +355,21 @@ In the King James Version 1 Corinthians xv,
 we shall not all sleep, but we shall all be
 changed.” The Douay Version renders the
 same verse, “Behold, I tell you a mystery. We
-shall all indeed rise again: <i>but we shall not
-all be changed</i>.” Luke ii, 14, is translated in
+shall all indeed rise again: _but we shall not
+all be changed_.” Luke ii, 14, is translated in
 the King James, “Glory to God in the highest,
-and on earth <i>peace of men of good will</i>.” The
+and on earth _peace of men of good will_.” The
 Protestant “Revised Version” gives it still different:
 
 /P
 “Glory to God in the highest,
- And on earth <i>peace among men in whom he is well pleased</i>.”
+ And on earth _peace among men in whom he is well pleased_.”
 P/
 
 The King James Version makes Matthew vi,
 11, read, “Give us this day our daily bread.”
 The Douay version says, “Give us this day our
-<i>super-substantial</i> bread.”
+_super-substantial_ bread.”
 
 We now come to one difference of translation,
 which perhaps above all others is the
@@ -381,7 +381,7 @@ in the wilderness of Judea, and saying, Repent
 ye; for the kingdom of heaven is at hand.”
 The Douay Version gives it an entirely different
 meaning when it makes the second verse
-read: “<i>Do penance</i>: for the kingdom of heaven
+read: “_Do penance_: for the kingdom of heaven
 is at hand.” This controverted word occurs in
 the New Testament fifty times and is so differently
 translated in the King James and Douay
@@ -509,18 +509,18 @@ opposing beliefs protest.
 
 CHAPTER II
 
-<i>The Bible and the Courts--Law, Constitution
+_The Bible and the Courts--Law, Constitution
 and the Judges Are Opposed to Religion
-in Our Common Schools.</i>
+in Our Common Schools._
 
 
 We will begin with fundamentals by calling
 attention to the first amendment to the Constitution
 of the United States which reads:
 
-“<i>Congress shall make no law respecting the establishment
+“_Congress shall make no law respecting the establishment
 of religion or prohibiting the free
-exercise thereof.</i>”
+exercise thereof._”
 
 While this does not take away from the
 states the power to establish religious observances,
@@ -663,7 +663,7 @@ that it was illegal, unconstitutional, and subversive
 of the rights of those who objected to
 such reading. This is so well recognized now
 that Bible advocates generally, as a last resort,
-advocate only the reading of a book of <i>extracts</i>
+advocate only the reading of a book of _extracts_
 from the Bible, a proposal to a consideration of
 which we shall give our attention later. The
 first historic case of interest is the Ohio case.
@@ -715,16 +715,16 @@ Have Protestants no rights? Cannot the majority
 of the community insist upon their consciences?
 Must the right of minorities alone be consulted?
 Are we to be ruled by Catholics, or Jews, or Infidels?
-The answer is obvious and easy: <i>Protestants
-have no rights</i>, as such, <i>which do not at the
-same time</i> and to the same extent belong to Catholics
+The answer is obvious and easy: _Protestants
+have no rights_, as such, _which do not at the
+same time_ and to the same extent belong to Catholics
 as such, to Jews and Infidels. Protestants
 have a civil right to enjoy their own belief, to
 worship in their own way, to read the Bible and
 teach it as a part of their religion. But they have
-<i>no right in</i> this respect <i>to any preference from the
-state</i> or any of its institutions. They have <i>no right</i>
-to insist upon <i>Protestant practices at public expense</i>,
+_no right in_ this respect _to any preference from the
+state_ or any of its institutions. They have _no right_
+to insist upon _Protestant practices at public expense_,
 or in public buildings, or to turn public
 schools into seminaries for the dissemination of
 Protestant ideas.
@@ -741,7 +741,7 @@ protected: and have need to be.
 “For--and that is the gist of the thing--the reading
 of the Holy Scriptures in the appropriate commencement
 of the morning daily exercises of the
-public school <i>is the teaching</i> of the <i>religious dogma</i>
+public school _is the teaching_ of the _religious dogma_
 that they are the inspired word of God: and if it
 were not so held by the Protestant members of
 this community, there would be no such lawsuit here
@@ -763,7 +763,7 @@ of faith and practice.
 
 “And therefore I say that the practice to be
 perpetuated by the power of the civil arm in this
-suit, is a practice which teaches a <i>religious dogma</i>,
+suit, is a practice which teaches a _religious dogma_,
 and in a sectarian sense. And I say that it is so
 indisputable, it is so self-evident--it is written
 upon every countenance in this room--that nothing
@@ -815,9 +815,9 @@ are endless.” (pages 218–219.)
 
 Speaking of the constitutions of the United
 States and of the state of Ohio, the Court said:
-“They, in a sense, speak to <i>mankind</i>, and speak
-of the rights of <i>man</i>. Neither the words <i>Christianity</i>,
-<i>Christian</i>, nor <i>Bible</i>, is to be found
+“They, in a sense, speak to _mankind_, and speak
+of the rights of _man_. Neither the words _Christianity_,
+_Christian_, nor _Bible_, is to be found
 therein.... Some of the very men who
 helped to frame these constitutions were themselves
 not Christian men.” (page 246.)
@@ -832,31 +832,31 @@ of the common law of this country, lying behind
 and above its constitutions. Those who make this
 assertion can hardly be serious, and intend the
 real import of their language. If Christianity is a
-<i>law</i> of the state, like every other law, it must have
-a <i>sanction</i>. Adequate penalties must be provided
+_law_ of the state, like every other law, it must have
+a _sanction_. Adequate penalties must be provided
 to enforce obedience to all its requirements and
 precepts. No one seriously contends for any such
 doctrine in this country, or, I might almost say,
 in this age of the world.” (pages 246–247.)
 
-“<i>Legal</i> Christianity is a solecism, a contradiction
+“_Legal_ Christianity is a solecism, a contradiction
 of terms. When Christianity asks the aid of government
-beyond mere <i>impartial</i> protection, it denies
+beyond mere _impartial_ protection, it denies
 itself. Its laws are divine, and not human. Its
 essential interests lie beyond the reach and range
-of human governments. <i>United with the government,
+of human governments. _United with the government,
 religion never rises above the merest superstition;
 united with religion, government never
-rises above the merest despotism</i>; and all history
+rises above the merest despotism_; and all history
 shows us that the more widely and completely they
 are separated, the better it is for both.” (page 248.)
 
 “Religion is not--Much less in Christianity or
 any other system of religion--named in the preamble
 of the Constitution of the United States as
-one of the declared <i>objects</i> of government; nor is
+one of the declared _objects_ of government; nor is
 it mentioned in the clause in question, in our own
-constitution, as being essential to anything <i>beyond</i>
+constitution, as being essential to anything _beyond_
 mere human government.” (page 248.)
 
 “Properly speaking, there is no such thing as
@@ -874,7 +874,7 @@ best religion, but how shall this best religion be
 secured? I answer, it can best be secured by adopting
 the doctrine of this seventh section in our own
 bill of rights, and which I summarize in two words,
-by calling it the doctrine of <i>hands off</i>. Let the
+by calling it the doctrine of _hands off_. Let the
 state not only keep its own hands off, but let it
 also see to it that religious sects keep their hands
 off each other.” (page 250.)
@@ -1108,10 +1108,10 @@ or listen to the reading of that sermon, and
 especially that prayer, without being filled with a
 holy sense of honor, reverence, adoration, and
 homage to Almighty God, which is the very essence
-of worship? <i>We must hold that the stated reading
+of worship? _We must hold that the stated reading
 of the Bible in the public schools as a text book
 may be worship within the meaning of the clause
-of the constitution under consideration.</i> If, then,
+of the constitution under consideration._ If, then,
 such reading of the Bible is worship, can there
 be any doubt but what the school room in which it
 is so statedly read is a ‘place of worship’ within
@@ -1293,8 +1293,8 @@ denied.
 
 THE ILLINOIS CASE
 
-This was the case of The People <i>ex rel</i> Jeremiah
-Ring <i>et al.</i>, Plaintiffs in Error, vs. the
+This was the case of The People _ex rel_ Jeremiah
+Ring _et al._, Plaintiffs in Error, vs. the
 Board of Education of District 24, etc., Defendant
 in Error. It was decided by the Illinois
 Supreme Court in June, 1910, and is to be
@@ -1327,23 +1327,23 @@ questions were decided, which applied not only
 to Mr. Ring, but to all other citizens not in
 sympathy with what is known as Evangelical
 Protestant Christianity. The first question decided
-was that “<i>free enjoyment of religious
-worship includes freedom not to worship</i>.”
+was that “_free enjoyment of religious
+worship includes freedom not to worship_.”
 This, orthodox religionists have been slow to
-concede, and never before has the right <i>not
-to worship</i> been so clearly stated. On this
+concede, and never before has the right _not
+to worship_ been so clearly stated. On this
 point the court said:
 
 “The wrong arises, not out of the particular
 version of the Bible or form of prayer used--whether
 that found in the Douay or the King
 James version--or the particular songs sung,
-but out of the <i>compulsion</i> to join in any form
+but out of the _compulsion_ to join in any form
 of worship.”
 
-The second point decided was that “<i>children
+The second point decided was that “_children
 attending public school cannot be compelled to
-join in religious worship</i>,” and that the religious
+join in religious worship_,” and that the religious
 exercises as held in the school “constitute
 worship within the meaning of the Constitution.”
 The third point decided was that, the
@@ -1445,7 +1445,7 @@ by a constitutional amendment.
 The following points now seem to be established
 in law:
 
-First: Any <i>version</i> of the Christian Bible
+First: Any _version_ of the Christian Bible
 is sectarian to those who do not accept it as
 the inspired word of God.
 
@@ -1493,11 +1493,11 @@ the same rights as those who do.
 
 CHAPTER III
 
-<i>Fifteen Reasons Why the Bible Should Not Be
-in the School Room</i>
+_Fifteen Reasons Why the Bible Should Not Be
+in the School Room_
 
 
-I. <i>The Question of Religion Involved.</i> Those
+I. _The Question of Religion Involved._ Those
 who want the Bible read in the public schools
 declare it to be the word of God. Now it either
 is such or it is not. If taught as the word of
@@ -1537,7 +1537,7 @@ ministers are unable to do their own work
 and must call upon the schoolmaster to help
 them.
 
-II. <i>The Age of the Bible.</i> A book written
+II. _The Age of the Bible._ A book written
 over two thousand years ago, in the infancy
 of the human intelligence, before the birth of
 scientific knowledge, has no place as a text
@@ -1601,7 +1601,7 @@ himself had to send to a “heathen,” Hiram,
 king of Tyre, for masons and carpenters? (2
 Samuel v, 11.)
 
-III. <i>The Bible is not a book</i>, but a collection
+III. _The Bible is not a book_, but a collection
 of books, written hundreds of years apart,
 and arbitrarily, in the midst of great and
 stormy controversy, gathered together in one
@@ -1846,8 +1846,8 @@ during the same time increased from 32,200
 in one single day to keep the passover,
 and actually did keep it (Ex. xii). At
 the first notice of any such feast Jehovah said,
-‘I will pass through the land of Egypt <i>this
-night</i>.’ The passover was to be killed ‘<i>at even</i>’
+‘I will pass through the land of Egypt _this
+night_.’ The passover was to be killed ‘_at even_’
 on the same day that Moses received the command....
 After midnight of the same day
 the Israelites received notice to start for the
@@ -2073,7 +2073,7 @@ Deuteronomy ix, 23, and see why all of the children
 of Israel twenty years old and over were
 doomed to spend the remainder of their lives
 in the wilderness. Why? Because they refused
-to <i>war</i> against the inhabitants of the land of
+to _war_ against the inhabitants of the land of
 Canaan. When the people told Jeremiah that
 they would go into Egypt where they would
 be free from war (Jeremiah xlii, 14), the Lord
@@ -2114,62 +2114,62 @@ public schools because it contradicts itself
 nearly two hundred times. We will give a few
 illustrations:
 
-“And he said, <i>Thou shalt not see my face</i>:
+“And he said, _Thou shalt not see my face_:
 for there shall no man see me and live” (Ex.
 xxxiii, 20).
 
-“<i>And the Lord spake unto Moses face to face</i>,
+“_And the Lord spake unto Moses face to face_,
 as a man speaketh unto his friend” (11).
 
 “And the men which journeyed with him
-stood speechless, <i>hearing a voice</i>, but seeing
+stood speechless, _hearing a voice_, but seeing
 no man” (Acts ix, 7).
 
 “And they that were with me saw indeed
-the light, and were afraid; but <i>they heard not
-the voice</i> of him that spake to me” (xxii, 9).
+the light, and were afraid; but _they heard not
+the voice_ of him that spake to me” (xxii, 9).
 
 Jesus said, “If any man hear my words, and
-believe not, <i>I judge him not</i>: for <i>I came not to
-judge the world</i>, but to save the world” (John
+believe not, _I judge him not_: for _I came not to
+judge the world_, but to save the world” (John
 xii, 47).
 
-“For the Father judgeth no man; <i>but hath
-committed all judgment to the son</i>” (v. 22).
+“For the Father judgeth no man; _but hath
+committed all judgment to the son_” (v. 22).
 
-“And the anger of <i>the Lord</i> was kindled
+“And the anger of _the Lord_ was kindled
 against Israel, and he moved David against
 them to say, Go, number Israel and Judah” (2
 Samuel xxiv, 1).
 
-“And <i>Satan</i> stood up against Israel, and provoked
+“And _Satan_ stood up against Israel, and provoked
 David to number Israel” (1 Chronicles
 xxi, 1).
 
-“The Jews therefore said unto him, <i>It is not
-lawful for us to put any man to death</i>” (John
+“The Jews therefore said unto him, _It is not
+lawful for us to put any man to death_” (John
 xviii, 31).
 
 “The Jews answered him, We have a law,
-and <i>by our law he ought to die</i>” (John xiv, 7).
+and _by our law he ought to die_” (John xiv, 7).
 
 What women visited the tomb on the morning
 of the resurrection?
 
-“The first day of the week cometh <i>Mary Magdalene</i>,
+“The first day of the week cometh _Mary Magdalene_,
 early when it was yet dark, unto the
 sepulchre” (John xx, 1).
 
 “In the end of the Sabbath, as it began to
 dawn toward the first day of the week, came
-<i>Mary Magdalene and the other Mary</i> to see the
+_Mary Magdalene and the other Mary_ to see the
 sepulchre” (Matt. xxviii, 1).
 
 “Now upon the first day of the week, very
 early in the morning, they came unto the sepulchre....
-It was <i>Mary Magdalene, and
+It was _Mary Magdalene, and
 Joanna, and Mary the mother of James, and
-other women</i>” (Luke xxiv, 10).
+other women_” (Luke xxiv, 10).
 
 At what time in the morning did they visit
 the tomb?
@@ -2181,14 +2181,14 @@ the tomb?
 Where did Jesus first appear to his disciples?
 
 “Then said Jesus unto them (the women)
-Be not afraid; go tell my brethren <i>that they
-go into Galilee</i>, into a mountain where Jesus
+Be not afraid; go tell my brethren _that they
+go into Galilee_, into a mountain where Jesus
 had appointed them. And when they saw him
 they worshiped him; but some doubted (Matt.
 xxviii, 10, 16, 17).
 
-“And they rose up the same hour, and <i>returned
-to Jerusalem</i>, and found the eleven
+“And they rose up the same hour, and _returned
+to Jerusalem_, and found the eleven
 gathered together, and them that were with
 them, saying, The Lord is risen indeed, and
 hath appeared unto Simon.... And as they
@@ -2207,23 +2207,23 @@ chief priests, and unto the scribes, and they
 shall condemn him to death, and shall deliver
 him to the Gentiles; and they shall mock him,
 and shall scourge him, and shall spit upon
-him, and shall kill him; <i>and the third day he
-shall rise again</i>.” Yet John xx, 9 distinctly
-says, “<i>For as yet they knew not the scripture,
-that he must rise again from the dead.</i>”
+him, and shall kill him; _and the third day he
+shall rise again_.” Yet John xx, 9 distinctly
+says, “_For as yet they knew not the scripture,
+that he must rise again from the dead._”
 
 Did John the Baptist know Jesus when he
 came unto him to be baptized? He did, according
 to Matt. iii, 13, 14: “Then cometh Jesus
 from Galilee to Jordan unto John, to be baptized
 of him. But John forbade him, saying,
-<i>I have need to be baptized of thee, and comest
-thou to me?</i>”
+_I have need to be baptized of thee, and comest
+thou to me?_”
 
 Yet John himself admits that he did not
 know him:
 
-“<i>And I knew him not</i>: but he that sent me to
+“_And I knew him not_: but he that sent me to
 baptize with water, the same said unto me,
 Upon whom thou shalt see the spirit descending
 and remaining on him, the same is he that
@@ -2238,14 +2238,14 @@ said:
 “Now when the centurion, and they that were
 with him, watching Jesus, saw the earthquake,
 and those things that were done, they feared
-greatly, saying, ‘<i>Truly, this was the Son of
-God</i>’” (Matt. xxvii, 54).
+greatly, saying, ‘_Truly, this was the Son of
+God_’” (Matt. xxvii, 54).
 
 Luke gives an entirely different version:
 
 “Now when the centurion saw what was
-done, he glorified God, saying, <i>Certainly this
-was a righteous man</i>” (xxiii, 47).
+done, he glorified God, saying, _Certainly this
+was a righteous man_” (xxiii, 47).
 
 Are works necessary for salvation, or is
 faith alone sufficient? “Knowing that a man
@@ -2269,9 +2269,9 @@ by faith only” (24).
 
 “And I appeared unto Abraham, unto Isaac,
 and unto Jacob by the name of God Almighty,
-<i>but by my name Jehovah was I not known to
-them</i>” (Exodus vi, 3). “<i>And Abraham called
-the name of the place Jehovah-jireh</i>” (Genesis
+_but by my name Jehovah was I not known to
+them_” (Exodus vi, 3). “_And Abraham called
+the name of the place Jehovah-jireh_” (Genesis
 xxii, 14).
 
 These are but a few of the contradictions
@@ -2304,8 +2304,8 @@ that period is passed he may drink all he
 wishes. (See Numbers vi, 3, 20.) Jehovah
 said unto Aaron, in his official capacity as
 high-priest: “Do not drink wine or strong
-drink, thou, nor thy sons with thee, <i>when ye
-go into the tabernacle of the congregation</i>, lest
+drink, thou, nor thy sons with thee, _when ye
+go into the tabernacle of the congregation_, lest
 ye die” (Leviticus x, 9). Why? “That ye
 may put difference between holy and unholy,
 and between clean and unclean; and that ye
@@ -2337,7 +2337,7 @@ the fourteenth chapter, twenty-sixth verse, after
 giving directions as to what is lawful to eat?
 “And thou shalt bestow that money for whatsoever
 thy soul lusteth after, for oxen, or for
-sheep, <i>or for wine, or for strong drink</i>, or for
+sheep, _or for wine, or for strong drink_, or for
 whatsoever thy soul desireth.” Jesus said,
 “Verily I say unto you, I will drink no more
 of the fruit of the vine”--because it was wrong
@@ -2422,7 +2422,7 @@ to offend, I will eat no flesh while the word
 standeth, lest I make my brother to offend.”
 (1 Corinthians viii:13).
 
-It will be noticed in the first that <i>flesh</i> comes
+It will be noticed in the first that _flesh_ comes
 before wine, while in the second, wine is not
 mentioned at all. When you read the context in
 both cases you will find that Paul is merely
