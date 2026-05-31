@@ -16,7 +16,8 @@
 - [ ] 14.png: poetry (4x)
 - [ ] 61.png: poetry
 * Transcriber Notes
-- book contains ~=bold text=~ markup
+- text version contains ~=bold text=~ markup
+- html version: Table of Contents was added.
 - p. 24: changed “depotism” to “despotism” (never rises above the merest despotism)
 - p. 24: changed “almightly” to “almighty” (It is not almighty and we are not to look)
 - p. 31: changed “summonded” to “summoned” (The teacher, summoned as a witness)

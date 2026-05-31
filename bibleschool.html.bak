@@ -1,49 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no,date=no,address=no,email=no,url=no">
+    <title>
+      The Bible, should it be in the school room? | Project Gutenberg
+    </title>
+    <link rel="icon" href="images/cover.jpg" type="image/x-cover">
+    <style>
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    text-align: center; /* all headings centered */
+    clear: both;
+}
+
+p {
+    margin-top: .5em;
+    text-align: justify;
+    margin-bottom: .5em;
+}
+
+.p2       {margin-top: 2em;}
+.p4       {margin-top: 4em;}
+.p6       {margin-top: 6em;}
+
+hr {
+    width: 33%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 33.5%;
+    margin-right: 33.5%;
+    clear: both;
+}
+
+hr.tb   {width: 45%; margin-left: 27.5%; margin-right: 27.5%;}
+hr.chap {width: 65%; margin-left: 17.5%; margin-right: 17.5%;}
+@media print { hr.chap {display: none; visibility: hidden;} }
+hr.full {width: 95%; margin-left: 2.5%; margin-right: 2.5%;}
+
+hr.r5  {width: 5%; margin-top: 1em; margin-bottom: 1em; margin-left: 47.5%; margin-right: 47.5%;}
+hr.r65 {width: 65%; margin-top: 3em; margin-bottom: 3em; margin-left: 17.5%; margin-right: 17.5%;}
+
+div.chapter {page-break-before: always;}
+h2.nobreak  {page-break-before: avoid;}
+
+ul.index { list-style-type: none; }
+li.ifrst {
+    margin-top: 1em;
+    text-indent: -2em;
+    padding-left: 1em;
+}
+li.indx  {
+    margin-top: .5em;
+    text-indent: -2em;
+    padding-left: 1em;
+}
+li.isub1 {
+    text-indent: -2em;
+    padding-left: 2em;
+}
+li.isub2 {
+    text-indent: -2em;
+    padding-left: 3em;
+}
+li.isub3 {
+    text-indent: -2em;
+    padding-left: 4em;
+}
+li.isub4 {
+    text-indent: -2em;
+    padding-left: 5em;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+table.autotable    { border-collapse: collapse; }
+table.autotable td,
+table.autotable th { padding: 0.25em; }
+
+table.toc { max-width: 28em; }
+table.toc td { padding-top: 0.5em; padding-bottom: 0.5em; }
+
+.tdl      {text-align: left;}
+.tdr      {text-align: right;}
+.tdc      {text-align: center;}
+
+.pagenum { /* uncomment the next line for invisible page numbers */
+    /*  visibility: hidden;  */
+    position: absolute;
+    left: 92%;
+    font-size: small;
+    text-align: right;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-indent: 0;
+} /* page numbers */
+
+.linenum {
+    position: absolute;
+    top: auto;
+    left: 4%;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+} /* poetry number */
+
+blockquote {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+.sidenote {
+    width: 20%;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    padding-left: .5em;
+    padding-right: .5em;
+    margin-left: 1em;
+    float: right;
+    clear: right;
+    margin-top: 1em;
+    font-size: small;
+    color: black;
+    background: #eeeeee;
+    border: 1px dashed;
+}
+
+.bb       {border-bottom: 2px solid;}
+
+.bl       {border-left: 2px solid;}
+
+.bt       {border-top: 2px solid;}
+
+.br       {border-right: 2px solid;}
+
+.bbox     {border: 2px solid;}
+
+.center   {text-align: center; text-indent: 0;}
+
+.right    {text-align: right;}
+
+.smcap    {font-variant: small-caps;}
+
+.allsmcap {font-variant: small-caps; text-transform: lowercase;}
+
+.u        {text-decoration: underline;}
+
+.gesperrt
+{
+    font-style: normal;
+    letter-spacing: 0.2em;
+    margin-right: -0.2em;
+}
+.x-ebookmaker-2 .gesperrt {
+    font-style: italic;
+    letter-spacing: normal;
+    margin-right: 0em;
+}
+
+figcaption   {font-weight: bold;}
+figcaption p {margin-top: 0; margin-bottom: .2em; text-align: inherit;}
+
+/* Images */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+img.w100 {width: 100%;}
 
 
+.figcenter {
+    margin: auto;
+    text-align: center;
+    page-break-inside: avoid;
+    max-width: 100%;
+}
+
+.figleft {
+    float: left;
+    clear: left;
+    margin-left: 0;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-right: 1em;
+    padding: 0;
+    text-align: center;
+    page-break-inside: avoid;
+    max-width: 100%;
+}
+/* comment out next line and uncomment the following one for floating figleft on ebookmaker output */
+.x-ebookmaker .figleft {float: none; text-align: center; margin-right: 0;}
+/* .x-ebookmaker .figleft {float: left;} */
+
+.figright {
+    float: right;
+    clear: right;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-right: 0;
+    padding: 0;
+    text-align: center;
+    page-break-inside: avoid;
+    max-width: 100%;
+}
+/* comment out next line and uncomment the following one for floating figright on ebookmaker output */
+.x-ebookmaker .figright {float: none; text-align: center; margin-left: 0;}
+/* .x-ebookmaker .figright {float: right;} */
+
+/* Footnotes */
+.footnotes        {border: 1px dashed;}
+
+.footnote         {margin-left: 10%; margin-right: 10%; font-size: 0.9em;}
+
+.footnote .label  {position: absolute; right: 84%; text-align: right;}
+
+.fnanchor {
+    vertical-align: super;
+    font-size: .8em;
+    text-decoration:
+    none;
+}
+
+/* Poetry */
+/* uncomment the next line for centered poetry */
+/* .poetry-container {display: flex; justify-content: center;} */
+.poetry-container {text-align: center;}
+.poetry           {text-align: left; margin-left: 5%; margin-right: 5%;}
+.poetry .stanza   {margin: 1em auto;}
+.poetry .verse    {text-indent: -3em; padding-left: 3em;}
+
+/* Transcriber's notes */
+.transnote {background-color: #E6E6FA;
+    color: black;
+    font-size:small;
+    padding:0.5em;
+    margin-bottom:5em;
+    font-family:sans-serif, serif;
+}
 
 
-/F
-LITTLE BLUE BOOK NO. <b>706</b>
-Edited by E. Haldeman-Julius
+/* indent paragraphs */
+p { text-indent: 1em; }
+p.noindent { text-indent: 0; }
 
-The Bible: Should It Be in
-the School Room?
+/* de-emphasize page numbers */
+.pagenum { color: #bbbbbb; }
 
-The Question Considered Legally, Morally
-and Religiously
+/* footnote block styling */
+.footnotes {
+    border: 1px dashed #aaaaaa;
+    margin-top: 1.5em;
+}
 
-Franklin Steiner
+/* TN styling */
+.transnote {
+    background-color: inherit;
+    border: 1px dashed #bbbbbb;
+    margin-top: 3em;
+    page-break-before: always;
+}
+
+/* Don't visibly style abbr tags. Browsers usually underline them. */
+abbr {
+    text-decoration: none;
+}
+/* abbrs that should be read letter-by-letter */
+abbr.spell { speak: spell-out; }
+
+/* "gray bar" blockquotes */
+blockquote {
+    border-left: .15em solid #c8c8c8;
+    padding-left: .7em;
+    margin-left: 4%;
+    margin-right: 8%;
+}
+
+/* don't wrap; better than invisible word joiner char? */
+.nowrap { white-space: nowrap; }
+
+/* remove italic styling, e.g. on a <cite> */
+.nonitalic { font-style: normal; }
+
+/* hanging indent */
+.hanging2 {
+  padding-left: 2em;
+  text-indent: -2em;
+}
+
+/* drop caps */
+p.drop-cap { text-indent: 0em; }
+p.drop-cap::first-letter {
+  float: left;
+  margin: 0 0.1em 0 0;
+  font-size: 250%;
+  line-height:0.85em;
+}
+.uppercase { text-transform: uppercase; }
+
+/* disable drop caps for EPUB2 */
+.x-ebookmaker-2  p.drop-cap::first-letter {
+  float: none;
+  margin: 0;
+  font-size: 100%;
+}
 
 
-HALDEMAN-JULIUS COMPANY
-GIRARD, KANSAS
-F/
+/* Poetry indents */
+.poetry .indent0 {text-indent: -3.0em;}
+.poetry .indent1 {text-indent: -2.5em;}
+
+    </style>
+</head>
+<body>
+<main>
 
 
+<p><span class="pagenum" id="Page_1">[Pg 1]</span></p>
 
 
-/F
-Copyright, 1924,
-Haldeman-Julius Company.
+<p class="center">LITTLE BLUE BOOK NO. <b>706</b>
+Edited by E. Haldeman-Julius</p>
 
-PRINTED IN THE UNITED STATES OF AMERICA
-F/
+<p class="center">The Bible: Should It Be in
+the School Room?</p>
 
+<p class="center">The Question Considered Legally, Morally
+and Religiously</p>
 
-
-
-/F
-THE BIBLE: SHOULD IT BE IN THE
-SCHOOL ROOM?
-F/
+<p class="center">Franklin Steiner</p>
 
 
+<p class="center">HALDEMAN-JULIUS COMPANY
+GIRARD, KANSAS</p>
 
 
-INTRODUCTION
+<p><span class="pagenum" id="Page_2">[Pg 2]</span></p>
 
 
-The fact that certain Protestant churches,
+<p class="center">Copyright, 1924,
+Haldeman-Julius Company.</p>
+
+<p class="center">PRINTED IN THE UNITED STATES OF AMERICA</p>
+
+<p><span class="pagenum" id="Page_3">[Pg 3]</span></p>
+
+
+<p class="center">THE BIBLE: SHOULD IT BE IN THE
+SCHOOL ROOM?</p>
+
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
+<div class="chapter">
+  <h2 class="nobreak" id="TABLE_OF_CONTENTS">
+    Table of Contents
+  </h2>
+</div>
+
+<nav>
+<table class="autotable toc">
+<tr>
+<td class="tdc">
+<a href="#INTRODUCTION">INTRODUCTION</a>
+</td>
+</tr>
+<tr>
+<td class="tdc"><a href="#CHAPTER_I">CHAPTER I</a><br>
+The Bible and the Sects—Shall Any Version of the Book Be Placed in This Country’s Common Schools?
+</td>
+</tr>
+<tr>
+<td class="tdc">
+<a href="#Is_the_Bible_a_Religious_and_Sectarian_Book">Is the Bible a Religious and Sectarian Book?</a>
+</td>
+</tr>
+<tr>
+<td class="tdc">
+<a href="#CHAPTER_II">CHAPTER II</a><br>
+The Bible and the Courts—Law, Constitution and the Judges Are Opposed to Religion in Our Common Schools.
+</td>
+</tr>
+<tr>
+<td class="tdc">
+<a href="#THE_OHIO_CASE">THE OHIO CASE</a>
+</td>
+</tr>
+<tr>
+<td class="tdc">
+<a href="#THE_WISCONSIN_CASE">THE WISCONSIN CASE</a>
+</td>
+</tr>
+<tr>
+<td class="tdc">
+<a href="#THE_NEBRASKA_CASE">THE NEBRASKA CASE</a>
+</td>
+</tr>
+<tr>
+<td class="tdc">
+<a href="#THE_ILLINOIS_CASE">THE ILLINOIS CASE</a>
+</td>
+</tr>
+<tr>
+<td class="tdc">
+<a href="#THE_CALIFORNIA_CASE">THE CALIFORNIA CASE</a>
+</td>
+</tr>
+<tr>
+<td class="tdc">
+<a href="#CHAPTER_III">CHAPTER III</a><br>
+Fifteen Reasons Why the Bible Should Not Be in the School Room
+</td>
+</tr>
+</table>
+</nav>
+
+
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
+<div class="chapter">
+
+<p><span class="pagenum" id="Page_4">[Pg 4]</span></p>
+
+
+  <h2 class="nobreak" id="INTRODUCTION">
+    INTRODUCTION
+  </h2>
+</div>
+
+
+<p>The fact that certain Protestant churches,
 strong politically, are exerting their efforts to
 force the teaching of their religion in our public
 schools against law, constitution, equity and
@@ -57,29 +452,39 @@ for presenting this little book to the public.
 He claims for it no literary merit, but hopes
 that all who are truly Americans, whether native
 or foreign born, will circulate its facts and
-arguments.
+arguments.</p>
 
-/R
-FRANKLIN STEINER.
-R/
-
-
+<p class="right">
+  FRANKLIN STEINER.
+</p>
 
 
-THE BIBLE: SHOULD IT BE IN THE
-SCHOOL ROOM?
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
+<div class="chapter">
+
+<p><span class="pagenum" id="Page_5">[Pg 5]</span></p>
 
 
+  <h2 class="nobreak" id="THE_BIBLE_SHOULD_IT_BE_IN_THE">
+    THE BIBLE: SHOULD IT BE IN THE
+    SCHOOL ROOM?
+  </h2>
+</div>
 
 
-CHAPTER I
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
+<div class="chapter">
+  <h2 class="nobreak" id="CHAPTER_I">
+    CHAPTER I
+    <br>
+    <i>The Bible and the Sects—Shall Any Version of
+    the Book Be Placed in This Country’s
+    Common Schools?</i>
+  </h2>
+</div>
 
-<i>The Bible and the Sects—Shall Any Version of
-the Book Be Placed in This Country’s
-Common Schools?</i>
 
-
-<sc>A Statement of the Case.</sc> A stupendous effort
+<p><span class="smcap">A Statement of the Case.</span> A stupendous effort
 is now being nationally made by a particular
 and special class of our citizens, to place
 the Bible, the text book of the Christian religion,
@@ -104,10 +509,10 @@ of religionists as well as of those professing no
 religion in particular, causes us to conclude
 that the <i>propriety</i> of such an inclusion in our
 public school instruction is the main issue to
-be considered.
+be considered.</p>
 
-There arises before us the further fact that
-one class of people are vigorously determined
+<p>There arises before us the further fact that
+<span class="pagenum" id="Page_6">[Pg 6]</span>one class of people are vigorously determined
 upon the use in the schools of a book of which
 they are the partisans, while the world contains
 many more books of the same character. Still
@@ -131,9 +536,9 @@ be not <i>excluded</i> and that it be read “without
 comment.” They are even willing to concede
 that no child shall be compelled to take part
 in the Bible reading exercise against the will
-of its parents.
+of its parents.</p>
 
-Why, unlike any other school book, should
+<p>Why, unlike any other school book, should
 it be read “without comment”? Why the exception?
 The Bible from whatever view we
 take it, above all other books, to be understood,
@@ -143,17 +548,24 @@ and positions which could hardly be
 duplicated when any other book is proposed for
 use in the school room. All goes to prove that
 the advocates of the proposal are very enthusiastic
-and determined to force the book in the
+<span class="pagenum" id="Page_7">[Pg 7]</span>and determined to force the book in the
 schools, on the best terms that they can obtain.
 Should any other book be proposed for a course
 of public school education, under the same conditions,
 no one will deny that its use would be
-unhesitatingly rejected.[1]
+unhesitatingly rejected.&#x2060;<a id="FNanchor_1_1" href="#Footnote_1_1" class="fnanchor">[1]</a>&#x2060;</p>
 
+<div class="footnote"><p><a id="Footnote_1_1" href="#FNanchor_1_1" class="label">[1]</a> Religionists in some places are now opposing the
+use of Wells’ “Outline of History” in high schools
+and colleges because some of its views are not
+orthodox and conventional. Yet they, a minority,
+would force their Bible by law upon all.</p></div>
 
-<sc>Is the Bible a Religious and Sectarian Book?</sc>
+<h3 id="Is_the_Bible_a_Religious_and_Sectarian_Book">
+  <span class="smcap">Is the Bible a Religious and Sectarian Book?</span>
+</h3>
 
-It is not our purpose to take part in any of
+<p>It is not our purpose to take part in any of
 the theological controversies that in the past
 or at the present have raged around the Bible.
 Yet, as the teaching of religion seems to be the
@@ -165,50 +577,50 @@ we are compelled to ask and answer the
 query, Is the Bible a religious book? The
 meaning of the word “religion” has been fixed
 by the best lexicographers and has been so utilized
-by the best writers.
+by the best writers.</p>
 
-“The outward act or form by which men indicate
+<p>“The outward act or form by which men indicate
 their recognition of the existence of a
 god or of gods having power over their destiny;
 to whom obedience, service and honor are due.”—Webster’s
-International.
+International.</p>
 
-“An acknowledgment of our obligation to
+<p>“An acknowledgment of our obligation to
 God as our creator, with a feeling of reverence
 and love, and consequent duty or obedience to
-him.”—Worcester.
+him.”—Worcester.</p>
 
-“A belief in an invisible superhuman power
-(or powers) conceived of after the analogy of
+<p>“A belief in an invisible superhuman power
+<span class="pagenum" id="Page_8">[Pg 8]</span>(or powers) conceived of after the analogy of
 the human spirit on which (or whom) man regards
 himself as dependent.”—The Standard
-Dictionary.
+Dictionary.</p>
 
-“Any system of faith or worship.”—Imperial
-Dictionary.
+<p>“Any system of faith or worship.”—Imperial
+Dictionary.</p>
 
-“Action or conduct indicating a belief, reverence
+<p>“Action or conduct indicating a belief, reverence
 for, and desire to please a divine ruling
-power.”—Oxford Dictionary.
+power.”—Oxford Dictionary.</p>
 
-We are aware that a class of modern thinkers
+<p>We are aware that a class of modern thinkers
 define and understand religion differently,
 as does R. B. Westbrook in The Eliminator,
 page 12: “We use the word religion as it was
 used by Cicero, in the sense of <i>Scruple</i>, implying
 the consciousness of a natural obligation
 wholly irrespective of what one may believe
-concerning the gods.”
+concerning the gods.”</p>
 
-We must say that in the face of the five definitions
+<p>We must say that in the face of the five definitions
 first given, added to the understanding
 and use of the word by religionists themselves,
 a revolution in human thought and in
 the meaning of the English language must take
 place before this can be seriously accepted as
-the correct, understood, prevailing definition.
+the correct, understood, prevailing definition.</p>
 
-Following these guides, the best we can obtain,
+<p>Following these guides, the best we can obtain,
 let us ask, Is the Bible a religious book?
 Is its chief object the teaching of religion? We
 think we need adduce no argument to prove
@@ -219,17 +631,17 @@ what remains. No one, and least of all a Christian,
 will deny that it teaches “a belief in an
 invisible superhuman power (or powers) conceived
 of after the analogy of the human
-spirit”; or that it teaches “a divine ruling
+<span class="pagenum" id="Page_9">[Pg 9]</span>spirit”; or that it teaches “a divine ruling
 power,” “to whom obedience, service and honor
-are due.”
+are due.”</p>
 
-The first three of the ten commandments are
+<p>The first three of the ten commandments are
 strictly religious and in no way concern morality.
 They teach the absurd doctrine that the
 God of the ancient Hebrews was the only God
-worthy of worship.
+worthy of worship.</p>
 
-The sermon on the mount, which is perhaps
+<p>The sermon on the mount, which is perhaps
 more free from strict religious teaching than
 any other portion of the Bible, yet says, “Seek
 ye <i>first</i> the kingdom of God and <i>his righteousness</i>
@@ -240,9 +652,9 @@ Jesus’ teachings are his eulogy and defense of
 children. Even here he strictly maintains religious
 doctrines, as when he says, in Matthew
 xviii, 6: “But whoso shall offend one of these
-little ones <i>which believe in me</i>,” etc.
+little ones <i>which believe in me</i>,” etc.</p>
 
-“In thus looking at the Bible from a distinctly
+<p>“In thus looking at the Bible from a distinctly
 religious point of view, we are in perfect
 harmony with its writers; even with such of
 them as adopt the narrative style, and will
@@ -257,7 +669,7 @@ recognized them as the rule of faith and conduct;
 and in the same way the writers themselves
 prepared their works and gave publicity
 to them, not simply or chiefly in order to make
-their readers accurately acquainted with the
+<span class="pagenum" id="Page_10">[Pg 10]</span>their readers accurately acquainted with the
 past, but to promulgate and recommend what
 seemed to them to be religious truth.” (“Bible
 for Learners,” Vol. 1, page 5.) Hence, however
@@ -266,9 +678,9 @@ the book as “literature” or “the fountain of
 morality,” there can be no legitimate question
 of its object being to teach a particular religion,
 and that its purpose in the school room is to do
-the same.
+the same.</p>
 
-Let us now ask another question, Is the Bible
+<p>Let us now ask another question, Is the Bible
 a sectarian book? Let us first state that there
 is no such thing as a cosmopolitan or universal
 religion. Prof. Max Müller, perhaps the greatest
@@ -276,9 +688,9 @@ authority upon the science of religion, has
 said: “Religion is a mental faculty which, independent
 of, nay, in spite of, sense and reason,
 enables man to apprehend the infinite <i>under
-different names and disguises</i>.”
+different names and disguises</i>.”</p>
 
-Hence, man, in an effort to understand the
+<p>Hence, man, in an effort to understand the
 infinite, has formed not one but many religions;
 therefore we have Buddhism, Brahmanism,
 Shintoism, Judaism, the mythology of the
@@ -288,14 +700,14 @@ has been developed Agnosticism which holds
 that the infinite is incomprehensible. Religions
 and Bibles are all sectarian to the devotees of
 other religions who do not accept them as true
-or authoritative.
+or authoritative.</p>
 
-In the face of this broad truth, those who advocate
+<p>In the face of this broad truth, those who advocate
 reading the Bible in the public school
 deny that it is sectarian. They would narrow
 their definition of “sect” to that of the Standard
 Dictionary, which defines it as “a body of
-persons distinguished by peculiarities of faith
+<span class="pagenum" id="Page_11">[Pg 11]</span>persons distinguished by peculiarities of faith
 and practice from other bodies adhering to the
 same general system.” But Christianity consists
 of different bodies distinguished by wide
@@ -317,9 +729,9 @@ The question, “Is the King James version
 sectarian?” has caused the long controversy
 which courts have been called on to settle
 when opponents of Bible reading have taken
-legal action to keep it out of the schools.
+legal action to keep it out of the schools.</p>
 
-There is another English version of the Bible
+<p>There is another English version of the Bible
 called the “Douay version,” which is accepted
 by Roman Catholics, who not only deny that
 the King James version is the correct one, but
@@ -328,11 +740,11 @@ errors. Protestants retaliate by making the
 same charges against the Douay version. Therefore,
 to either one of these, the principal divisions
 of Christianity, the Bible of the other
-is sectarian.
+is sectarian.</p>
 
-Let us give illustrations of the widely variant
+<p>Let us give illustrations of the widely variant
 readings in these two principal English versions
-of the Bible. When we have done so our
+<span class="pagenum" id="Page_12">[Pg 12]</span>of the Bible. When we have done so our
 readers can perceive why such a bitter controversy
 has arisen between the partisans of
 the different transcripts. He will also see the
@@ -342,9 +754,9 @@ animosity, into public schools supported by citizens
 of all religious beliefs, who are compelled
 by the law of the land to send their children
 there. We will take just a few illustrations
-from hundreds.
+from hundreds.</p>
 
-In the King James Version 1 Corinthians xv,
+<p>In the King James Version 1 Corinthians xv,
 51, is translated: “Behold, I shew you a mystery;
 we shall not all sleep, but we shall all be
 changed.” The Douay Version renders the
@@ -353,26 +765,30 @@ shall all indeed rise again: <i>but we shall not
 all be changed</i>.” Luke ii, 14, is translated in
 the King James, “Glory to God in the highest,
 and on earth <i>peace of men of good will</i>.” The
-Protestant “Revised Version” gives it still different:
+Protestant “Revised Version” gives it still different:</p>
 
-/P
-    “Glory to God in the highest,
-     And on earth <i>peace among men in whom he is well pleased</i>.”
-P/
+<div class="poetry-container">
+  <div class="poetry">
+    <div class="stanza">
+      <div class="verse indent0">“Glory to God in the highest,</div>
+      <div class="verse indent1">And on earth <i>peace among men in whom he is well pleased</i>.”</div>
+    </div>
+  </div>
+</div>
 
-The King James Version makes Matthew vi,
+<p>The King James Version makes Matthew vi,
 11, read, “Give us this day our daily bread.”
 The Douay version says, “Give us this day our
-<i>super-substantial</i> bread.”
+<i>super-substantial</i> bread.”</p>
 
-We now come to one difference of translation,
+<p>We now come to one difference of translation,
 which perhaps above all others is the
 most startling and would arouse the greatest
 of the theological controversies. Matthew iii,
 1–2, reads, in the King James Version: “In
 those days came John the Baptist, preaching
 in the wilderness of Judea, and saying, Repent
-ye; for the kingdom of heaven is at hand.”
+<span class="pagenum" id="Page_13">[Pg 13]</span>ye; for the kingdom of heaven is at hand.”
 The Douay Version gives it an entirely different
 meaning when it makes the second verse
 read: “<i>Do penance</i>: for the kingdom of heaven
@@ -383,9 +799,9 @@ Versions. In the Catholic church penance is
 one of the seven sacraments, while Protestants
 do not recognize it at all, hence one looks upon
 the Bible of the other as false and as a teacher
-of false doctrines.
+of false doctrines.</p>
 
-A more startling fact arises when we discover
+<p>A more startling fact arises when we discover
 that not only are Catholics and Protestants
 divided in opinion as to what the Bible
 means and as to which version gives the correct
@@ -409,77 +825,95 @@ me.” This passage is to be found in the Episcopal
 and other orthodox church funeral rituals.
 The “redeemer” is supposed to be Christ,
 and Job is supposed to refer to his soul in
-heaven. This is done in defiance of the fact
+<span class="pagenum" id="Page_14">[Pg 14]</span>heaven. This is done in defiance of the fact
 that Job in other passages states that death
 ends all. (See vii, 7–10; xiv, 7–12 and xxxiv,
 15.) Following are the translations of a number
 of well-known Biblical scholars, which give
 it a different meaning and state an entirely
-different situation:
+different situation:</p>
 
-/P
-    “Yet I know that my Vindicator liveth
-     And will stand at length upon the earth;
-     And though with my skin this body be wasted away,
-     Yet in my flesh shall I see God.
-     Yea, I shall see him my friend;
-     My eyes shall behold him no longer an adversary;
-     For this my soul panteth within me.”
-P/
+<div class="poetry-container">
+  <div class="poetry">
+    <div class="stanza">
+      <div class="verse indent0">“Yet I know that my Vindicator liveth</div>
+      <div class="verse indent1">And will stand at length upon the earth;</div>
+      <div class="verse indent1">And though with my skin this body be wasted away,</div>
+      <div class="verse indent1">Yet in my flesh shall I see God.</div>
+      <div class="verse indent1">Yea, I shall see him my friend;</div>
+      <div class="verse indent1">My eyes shall behold him no longer an adversary;</div>
+      <div class="verse indent1">For this my soul panteth within me.”</div>
+    </div>
+  </div>
+</div>
 
-(Translation of the Rev. Dr. Noyes of Harvard
-Divinity School.)
+<p>(Translation of the Rev. Dr. Noyes of Harvard
+Divinity School.)</p>
 
-/P
-    “But I know that my avenger liveth;
-     Though it be at the end upon my dust,
-     My witness shall avenge these things,
-     And a curse alight upon mine enemies.”
-P/
+<div class="poetry-container">
+  <div class="poetry">
+    <div class="stanza">
+      <div class="verse indent0">“But I know that my avenger liveth;</div>
+      <div class="verse indent1">Though it be at the end upon my dust,</div>
+      <div class="verse indent1">My witness shall avenge these things,</div>
+      <div class="verse indent1">And a curse alight upon mine enemies.”</div>
+    </div>
+  </div>
+</div>
 
-(Translation of Dr. Dillon, in Skeptics of the
-Old Testament.)
+<p>(Translation of Dr. Dillon, in Skeptics of the
+Old Testament.)</p>
 
-/P
-    “For I know that my Avenger liveth
-     And that hereafter he shall stand upon the earth;
-     And though after my skin this (flesh) be destroyed,
-     Yet even without my flesh shall I see God;
-     Whom I shall see for myself.
-     And mine eyes shall behold, and not another—
-     Though my vitals are wasting away within me.”
-P/
+<div class="poetry-container">
+  <div class="poetry">
+    <div class="stanza">
+      <div class="verse indent0">“For I know that my Avenger liveth</div>
+      <div class="verse indent1">And that hereafter he shall stand upon the earth;</div>
+      <div class="verse indent1">And though after my skin this (flesh) be destroyed,</div>
+      <div class="verse indent1">Yet even without my flesh shall I see God;</div>
+      <div class="verse indent1">Whom I shall see for myself.</div>
+      <div class="verse indent1">And mine eyes shall behold, and not another—</div>
+      <div class="verse indent1">Though my vitals are wasting away within me.”</div>
+    </div>
+  </div>
+</div>
 
-(Translation of the Rev. Dr. Albert Barnes,
-Presbyterian divine and commentator.)
+<p>(Translation of the Rev. Dr. Albert Barnes,
+Presbyterian divine and commentator.)</p>
 
-/P
-    “As for me, I know it—my Avenger liveth,
-     And (lying) in the dust I shall receive his pledge;
-     Shaddai will bring to pass my desire,
-     And as my justifier I shall see God.”
-P/
+<div class="poetry-container">
+  <div class="poetry">
+    <div class="stanza">
+      <div class="verse indent0">“As for me, I know it—my Avenger liveth,</div>
+      <div class="verse indent1">And (lying) in the dust I shall receive his pledge;</div>
+      <div class="verse indent1">Shaddai will bring to pass my desire,</div>
+      <div class="verse indent1">And as my justifier I shall see God.”</div>
+    </div>
+  </div>
+</div>
 
-(Translation of the Rev. Dr. T. K. Cheyne,
-Editor of The Encyclopedia Biblica.)
+<p><span class="pagenum" id="Page_15">[Pg 15]</span></p>
 
-This is one of the many passages in the Bible
+<p>(Translation of the Rev. Dr. T. K. Cheyne,
+Editor of The Encyclopedia Biblica.)</p>
+
+<p>This is one of the many passages in the Bible
 which in the King James Version has been
 twisted to meet doctrinal ends. Again we repeat,
 that were any other book containing so
 many controversial meanings, especially among
 those who maintain its efficiency and credibility,
 offered for use in the school room, it
-would be rejected at once.
+would be rejected at once.</p>
 
-Let us be honest with ourselves and with
+<p>Let us be honest with ourselves and with
 one another, and admit the true motive of
 those who prolong this agitation to place the
 Bible in the public schools. We have said that
 they represent the Evangelical Protestant
-churches.
+churches.</p>
 
-The Catholic church maintains its separate
+<p>The Catholic church maintains its separate
 schools for the purpose of teaching its children
 the common branches of knowledge side by
 side with its religious doctrines. Protestants
@@ -496,27 +930,34 @@ whose national Constitution, as well as practically
 all its state constitutions, proclaims divorce
 between church and state, the Catholic,
 the Jew, the Agnostic, and citizens of other
-opposing beliefs protest.
+opposing beliefs protest.</p>
 
 
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
+<div class="chapter">
+
+<p><span class="pagenum" id="Page_16">[Pg 16]</span></p>
 
 
-CHAPTER II
+  <h2 class="nobreak" id="CHAPTER_II">
+    CHAPTER II
+    <br>
+    <i>The Bible and the Courts—Law, Constitution
+    and the Judges Are Opposed to Religion
+    in Our Common Schools.</i>
+  </h2>
+</div>
 
-<i>The Bible and the Courts—Law, Constitution
-and the Judges Are Opposed to Religion
-in Our Common Schools.</i>
 
-
-We will begin with fundamentals by calling
+<p>We will begin with fundamentals by calling
 attention to the first amendment to the Constitution
-of the United States which reads:
+of the United States which reads:</p>
 
-“<i>Congress shall make no law respecting the establishment
+<p>“<i>Congress shall make no law respecting the establishment
 of religion or prohibiting the free
-exercise thereof.</i>”
+exercise thereof.</i>”</p>
 
-While this does not take away from the
+<p>While this does not take away from the
 states the power to establish religious observances,
 it has been repeated, even with stronger
 guarantees, in practically all of our state constitutions.
@@ -533,18 +974,18 @@ God; and Maryland, where belief in future rewards
 and punishments is essential to competency
 as a witness or juror. Hence, upon
 the principle of no union of religion with the
-state, our fundamental laws are almost unanimous.
+state, our fundamental laws are almost unanimous.</p>
 
-This is distinctly an American idea. In
+<p>This is distinctly an American idea. In
 Europe every country except Turkey recognized
 the Christian religion, and all had a
-state church. All the thirteen colonies had
+<span class="pagenum" id="Page_17">[Pg 17]</span>state church. All the thirteen colonies had
 the same except Rhode Island, Pennsylvania
 and Delaware. The last two granted religious
 equality only to Protestants. Only in the
-first was there absolute religious freedom.
+first was there absolute religious freedom.</p>
 
-Cobb says: “The history of religion and the
+<p>Cobb says: “The history of religion and the
 church in America, as those stand related to
 the civil government, presents features unparalleled
 in the rest of Christendom” ... “a
@@ -563,9 +1004,9 @@ manifestation of the old-time evasion and defiance.
 The orthodox church, from the very
 nature of the pretenses that it makes, has never
 ceased to seek favors from the state and to demand
-emoluments in one form or another.
+emoluments in one form or another.</p>
 
-When a person or an organization lifts a
+<p>When a person or an organization lifts a
 voice in opposition to the introduction of the
 Bible in the school room, bibliolaters immediately
 raise the hue and cry, “Enemy of the
@@ -575,7 +1016,7 @@ are intended not to answer the arguments of
 their opponents, but to crush them by opprobrium.
 The statement that opponents of the
 Bible in the schools are necessarily enemies of
-it is not only untrue, but has no purpose, except
+<span class="pagenum" id="Page_18">[Pg 18]</span>it is not only untrue, but has no purpose, except
 the intent be to blind the eyes of the public.
 The Bible as a work of literature no
 more has “enemies” than have the works of
@@ -590,9 +1031,9 @@ and interpret the Bible as they choose, but
 no one interpretation should have the prestige
 of the law, considering that there are so many
 of them and that our law recognizes no particular
-form of religion.
+form of religion.</p>
 
-Others raise the hue and cry that the opposition
+<p>Others raise the hue and cry that the opposition
 to Bible reading in the schools comes
 from Catholic sources. Even if this were true,
 it would only prove that the Catholic has the
@@ -611,11 +1052,11 @@ of injustice. Whenever and wherever
 Catholics attempt to make use of the public
 schools as a place of propaganda for their
 church, as Protestants are doing when they
-force their Bible there, we will then and there
+<span class="pagenum" id="Page_19">[Pg 19]</span>force their Bible there, we will then and there
 oppose them with the same logic we are now
-advancing against Protestants.
+advancing against Protestants.</p>
 
-Among the side issues brought forward to
+<p>Among the side issues brought forward to
 befog the minds of the citizen is the plea that
 the Bible should be read in the schools because
 all should know something about it. But
@@ -644,13 +1085,15 @@ so on. In the study of the book are all these
 to be neglected? If they are, the Bible would
 not be studied intelligently. The “without
 comment” plea is equivalent to a confession
-that they do not want it so studied.
+that they do not want it so studied.</p>
 
 
-THE OHIO CASE
+<h3 id="THE_OHIO_CASE">
+  THE OHIO CASE
+</h3>
 
-Where the real merits of the case have been
-before a court for consideration as to the legality
+<p>Where the real merits of the case have been
+<span class="pagenum" id="Page_20">[Pg 20]</span>before a court for consideration as to the legality
 of the reading of the Bible in the public
 schools, the decisions have invariably been
 that it was illegal, unconstitutional, and subversive
@@ -684,26 +1127,28 @@ that to keep the Bible out of the schools
 would be to turn the schools over to the control
 of “Infidel sects”; that many children would
 remain in total ignorance of the Bible did they
-not study it in the common schools.
+not study it in the common schools.</p>
 
-The school board was represented by two of
+<p><span class="pagenum" id="Page_21">[Pg 21]</span></p>
+
+<p>The school board was represented by two of
 the ablest lawyers in Ohio, Hon. Stanley Matthews,
 afterwards United States senator, and
 at the time of his death a judge of the Supreme
 Court of the United States; and the Hon.
 George Hoadley, afterwards governor of Ohio.
 We quote but a part of Judge Matthews’ argument,
-though all of it is worthy of reproduction:
+though all of it is worthy of reproduction:</p>
 
-/#
-“I do say that the reading of the Holy Bible
+<blockquote>
+<p>“I do say that the reading of the Holy Bible
 in the manner repealed by this resolution, is the
 teaching of a dogma in religion, held by only a
 portion of the religious community, objected to by a
 large part of the others, and that it is in a just,
-true and sober sense, a merely sectarian book.
+true and sober sense, a merely sectarian book.</p>
 
-“But it is asked by some, who by asking betray
+<p>“But it is asked by some, who by asking betray
 their want of comprehension of the real question:
 Have Protestants no rights? Cannot the majority
 of the community insist upon their consciences?
@@ -721,41 +1166,41 @@ state</i> or any of its institutions. They have <i>no right</i>
 to insist upon <i>Protestant practices at public expense</i>,
 or in public buildings, or to turn public
 schools into seminaries for the dissemination of
-Protestant ideas.
+Protestant ideas.</p>
 
-“They can claim nothing on the score of conscience
+<p>“They can claim nothing on the score of conscience
 which they cannot concede equally to all
 others. It is not a question of majorities or minorities,
 for if the conscience of the majority is to be
 the standard, then there is no such thing as conscience
 at all. It is against the predominance and
 power of majorities that the right of conscience are
-protected: and have need to be.
+protected: and have need to be.</p>
 
-“For—and that is the gist of the thing—the reading
-of the Holy Scriptures in the appropriate commencement
+<p>“For—and that is the gist of the thing—the reading
+<span class="pagenum" id="Page_22">[Pg 22]</span>of the Holy Scriptures in the appropriate commencement
 of the morning daily exercises of the
 public school <i>is the teaching</i> of the <i>religious dogma</i>
 that they are the inspired word of God: and if it
 were not so held by the Protestant members of
 this community, there would be no such lawsuit here
-today as there is.
+today as there is.</p>
 
-“If it were the writings of Epictetus, of Seneca,
+<p>“If it were the writings of Epictetus, of Seneca,
 or of Pliny, or moral philosophy, or anything of
 human composition and origin only, that taught
 the purest and highest morality, nobody would be
 found to pay the expense of filing this bill to compel
-its daily reading.
+its daily reading.</p>
 
-“It is because that exercise is intended, and
+<p>“It is because that exercise is intended, and
 valued only as it is intended, to teach the Christian
 doctrine as to the scheme of salvation offered
 by Christ, and the Protestant doctrine that the
 book without note or comment is the infallible rule
-of faith and practice.
+of faith and practice.</p>
 
-“And therefore I say that the practice to be
+<p>“And therefore I say that the practice to be
 perpetuated by the power of the civil arm in this
 suit, is a practice which teaches a <i>religious dogma</i>,
 and in a sectarian sense. And I say that it is so
@@ -764,10 +1209,10 @@ upon every countenance in this room—that nothing
 else than that could account for the extraordinary
 interest taken in this trial and the efforts which
 are made to secure the interposition of this
-court.”
-#/
+court.”</p>
+</blockquote>
 
-The case caused great bitterness of feeling,
+<p>The case caused great bitterness of feeling,
 was hotly contested, and finally carried to the
 Supreme Court of Ohio. There, in December,
 1872, it was decided against the churches and
@@ -780,14 +1225,14 @@ the Board had such a right and that any error
 the board might make must be corrected by the
 legislature, and not by the courts. But as the
 church people had persisted in lugging in the
-subject of religion, it was necessary to deal
+<span class="pagenum" id="Page_23">[Pg 23]</span>subject of religion, it was necessary to deal
 with that also. Here the court spoke in no
 uncertain tone. We quote first an extract
 from the brief submitted by the legal representatives
-of the Board:
+of the Board:</p>
 
-/#
-“Superficial teaching should be shunned most of
+<blockquote>
+<p>“Superficial teaching should be shunned most of
 all in this department, for this concerns, not the
 poor and temporary affairs of the body, but the
 eternal welfare of the soul; ... But true and full
@@ -804,36 +1249,36 @@ the Jew, who regards the Old Testament as
 alone inspired; the Catholic, who adds the
 Apocrypha. And the shades of difference as to
 the true sense and correct meaning of the Bibles
-are endless.” (pages 218–219.)
-#/
+are endless.” (pages 218–219.)</p>
+</blockquote>
 
-Speaking of the constitutions of the United
+<p>Speaking of the constitutions of the United
 States and of the state of Ohio, the Court said:
 “They, in a sense, speak to <i>mankind</i>, and speak
 of the rights of <i>man</i>. Neither the words <i>Christianity</i>,
 <i>Christian</i>, nor <i>Bible</i>, is to be found
 therein.... Some of the very men who
 helped to frame these constitutions were themselves
-not Christian men.” (page 246.)
+not Christian men.” (page 246.)</p>
 
-In dilating upon the relations of religion
-and government, the Court unanimously held:
+<p>In dilating upon the relations of religion
+and government, the Court unanimously held:</p>
 
-/#
-“We are told that this word religion must mean
+<blockquote>
+<p>“We are told that this word religion must mean
 Christian religion because Christianity is a part
 of the common law of this country, lying behind
 and above its constitutions. Those who make this
 assertion can hardly be serious, and intend the
 real import of their language. If Christianity is a
-<i>law</i> of the state, like every other law, it must have
+<span class="pagenum" id="Page_24">[Pg 24]</span><i>law</i> of the state, like every other law, it must have
 a <i>sanction</i>. Adequate penalties must be provided
 to enforce obedience to all its requirements and
 precepts. No one seriously contends for any such
 doctrine in this country, or, I might almost say,
-in this age of the world.” (pages 246–247.)
+in this age of the world.” (pages 246–247.)</p>
 
-“<i>Legal</i> Christianity is a solecism, a contradiction
+<p>“<i>Legal</i> Christianity is a solecism, a contradiction
 of terms. When Christianity asks the aid of government
 beyond mere <i>impartial</i> protection, it denies
 itself. Its laws are divine, and not human. Its
@@ -843,17 +1288,17 @@ religion never rises above the merest superstition;
 united with religion, government never
 rises above the merest despotism</i>; and all history
 shows us that the more widely and completely they
-are separated, the better it is for both.” (page 248.)
+are separated, the better it is for both.” (page 248.)</p>
 
-“Religion is not—Much less in Christianity or
+<p>“Religion is not—Much less in Christianity or
 any other system of religion—named in the preamble
 of the Constitution of the United States as
 one of the declared <i>objects</i> of government; nor is
 it mentioned in the clause in question, in our own
 constitution, as being essential to anything <i>beyond</i>
-mere human government.” (page 248.)
+mere human government.” (page 248.)</p>
 
-“Properly speaking, there is no such thing as
+<p>“Properly speaking, there is no such thing as
 religion of state. What we mean by that phrase is,
 the religion of some individual, or set of individuals,
 taught and enforced by the state. The state can
@@ -861,9 +1306,9 @@ have no religious opinions; and if it undertakes
 to enforce the teaching of such opinions, they must
 be the opinions of some natural person, or class of
 persons. If it embarks in this business, whose
-opinions shall it adopt?” (page 249.)
+opinions shall it adopt?” (page 249.)</p>
 
-“But the real question here is, not what is the
+<p>“But the real question here is, not what is the
 best religion, but how shall this best religion be
 secured? I answer, it can best be secured by adopting
 the doctrine of this seventh section in our own
@@ -871,13 +1316,13 @@ bill of rights, and which I summarize in two words,
 by calling it the doctrine of <i>hands off</i>. Let the
 state not only keep its own hands off, but let it
 also see to it that religious sects keep their hands
-off each other.” (page 250.)
+off each other.” (page 250.)</p>
 
-“Government is an organization for particular
+<p>“Government is an organization for particular
 purposes. It is not almighty and we are not to
 look to it for everything. The great bulk of human
 affairs and human interests is left by any free
-government to individual enterprise and individual
+<span class="pagenum" id="Page_25">[Pg 25]</span>government to individual enterprise and individual
 action. Religion is eminently one of those interests
 lying outside the true and legitimate province of
 government. Counsel say that to withdraw all religious
@@ -900,33 +1345,35 @@ his favorite opinions. Madison, who had more to
 do with framing the Constitution of the United
 States than any other man, and whose purity of
 life and orthodoxy of religious belief no one questions,
-himself says:
+himself says:</p>
 
-“‘Religion is not within the purview of human
+<p>“‘Religion is not within the purview of human
 government.’ And again he says, ‘Religion is essentially
 distinct from human government, and
 exempt from its cognizance. A connection between
 them is injurious to both. There are causes in the
 human breast which insure the perpetuity of religion
-without the aid of law.’”
+without the aid of law.’”</p>
 
-“In his letter to Gov. Livingston, July 10, 1822,
+<p>“In his letter to Gov. Livingston, July 10, 1822,
 he says: ‘I observe with particular pleasure the
 view you have taken of the immunity of religion
 from civil government, in every case where it does
 not trespass on private rights or the public peace.
 This has always been a favorite doctrine with
-me.’” (pages 253–254.)
-#/
+me.’” (pages 253–254.)</p>
+</blockquote>
 
 
-THE WISCONSIN CASE
+<h3 id="THE_WISCONSIN_CASE">
+  THE WISCONSIN CASE
+</h3>
 
-This case was decided by the supreme court
+<p>This case was decided by the supreme court
 of Wisconsin in March, 1890, and a report of
 it will be found in the Northwestern Reporter,
 Vol. 44, pages 967–982. It was an appeal from
-Rock county, where, in the town of Edgerton,
+<span class="pagenum" id="Page_26">[Pg 26]</span>Rock county, where, in the town of Edgerton,
 a number of citizens had brought action to
 prevent the reading of the King James version
 of the Bible in the schools of the town, for
@@ -934,16 +1381,16 @@ the following reasons: 1, It violates the rights
 of conscience; 2, It compels them to aid in the
 support of a place of worship against their
 consent; 3, It is sectarian instruction. (pages
-971–972.)
+971–972.)</p>
 
-The body of the decision was rendered by
+<p>The body of the decision was rendered by
 Justice Lyon, and was concurred in by the entire
 court. In dealing with the difference between
 the Douay and the King James versions,
-the Justice said:
+the Justice said:</p>
 
-/#
-“It is averred in the return that there is no
+<blockquote>
+<p>“It is averred in the return that there is no
 material difference between the King James version
 of the Bible used in the Edgerton schools, and
 the Douay version, which is the only one recognized
@@ -952,14 +1399,14 @@ It is universally known that there are differences
 between these two versions in many particulars,
 which the respective sects regard as material.
 Hence the averment is against common knowledge,
-and therefore not well pleaded.” (page 972.)
-#/
+and therefore not well pleaded.” (page 972.)</p>
+</blockquote>
 
-Concerning the reading of the King James version
-being sectarian instruction Justice Lyon declared:
+<p>Concerning the reading of the King James version
+being sectarian instruction Justice Lyon declared:</p>
 
-/#
-“The term ‘sectarian instruction,’ in the constitution,
+<blockquote>
+<p>“The term ‘sectarian instruction,’ in the constitution,
 manifestly refers exclusively to instruction in
 religious doctrines, and the prohibition is aimed
 only at such instruction as is sectarian; that is to
@@ -973,7 +1420,7 @@ sects so believe and teach. The instruction becomes
 sectarian when it goes further, and inculcates doctrine
 and dogma concerning which the religious
 sects are in conflict. That the reading from the
-Bible in the schools, although unaccompanied by
+<span class="pagenum" id="Page_27">[Pg 27]</span>Bible in the schools, although unaccompanied by
 any comment on the part of the teacher, is ‘instruction,’
 seems to us too clear for argument.
 Some of the most valuable instruction a person
@@ -1010,18 +1457,18 @@ In those cases the reading of the Bible
 certainly was sectarian instruction. We do not
 know how to frame an argument in support of the
 proposition that the reading thereof in the district
-schools is not also sectarian instruction.” (page 973.)
-#/
+schools is not also sectarian instruction.” (page 973.)</p>
+</blockquote>
 
-It having been pleaded by the school board
+<p>It having been pleaded by the school board
 that children were not required to remain in
 the room during Bible reading, if it was against
 the will of their parents, and therefore did not
-infringe upon their rights, the Justice said:
+infringe upon their rights, the Justice said:</p>
 
-/#
-“The answer of the respondent states that the
-relators’ children are not compelled to remain in
+<blockquote>
+<p>“The answer of the respondent states that the
+<span class="pagenum" id="Page_28">[Pg 28]</span>relators’ children are not compelled to remain in
 the school room while the Bible is being read, but
 are at liberty to withdraw therefrom during the
 reading of the same. For this reason it is claimed
@@ -1041,16 +1488,16 @@ that the practice in question tends to destroy the
 equality of the pupils which the constitution seeks
 to establish and protect, and puts a portion of them
 to serious disadvantage in many ways with respect
-to the others.” (page 975.)
-#/
+to the others.” (page 975.)</p>
+</blockquote>
 
-Justice Cassody, in concurring, holds that
+<p>Justice Cassody, in concurring, holds that
 even though no comment is made it would be
 very easy for the teacher if he so desired to
-make of such reading sectarian instruction:
+make of such reading sectarian instruction:</p>
 
-/#
-“Since every translation made by man must be
+<blockquote>
+<p>“Since every translation made by man must be
 more or less imperfect, and since the application
 of particular passages is liable to be made with
 partial apprehension and biased or even distorted
@@ -1064,29 +1511,29 @@ to concede the same to a member of a sect believing
 in an opposite faith or doctrine. But the
 law is impartial, and has given no rights to any
 one sect that is not equally secured to every other.”
-(page 977.)
-#/
+(page 977.)</p>
+</blockquote>
 
-He here quotes Judge Thurman of the Ohio
-Supreme Court as saying:
+<p>He here quotes Judge Thurman of the Ohio
+Supreme Court as saying:</p>
 
-/#
-“It is not by mere toleration that every individual
-here is protected in his belief or disbelief. He reposes
+<blockquote>
+<p>“It is not by mere toleration that every individual
+<span class="pagenum" id="Page_29">[Pg 29]</span>here is protected in his belief or disbelief. He reposes
 not upon the leniency of the government,
 or the liberality of any class or sect of men, but
 upon his natural, indefeasible rights of conscience,
 which, in the language of the constitution, are beyond
 the control or interference of any human
-authority.” (page 978.)
-#/
+authority.” (page 978.)</p>
+</blockquote>
 
-Is the reading of the Bible worship? Justice
+<p>Is the reading of the Bible worship? Justice
 Cassody upon this issue speaks without reserve,
-and handles the question without gloves:
+and handles the question without gloves:</p>
 
-/#
-“Certainly, the reading of the holy scriptures,
+<blockquote>
+<p>“Certainly, the reading of the holy scriptures,
 as the eternal word of God, in obedience to the oft-repeated
 injunction therein contained, whether by
 the individual in private, or in the family, or in the
@@ -1121,20 +1568,20 @@ is statedly held, and which the citizen is ‘compelled
 to attend,’ or the tax payers are compelled to
 ‘erect or support.’ The mere fact that only a
 small fraction of the school hours is devoted to
-such worship, in no way justifies such use, as
+<span class="pagenum" id="Page_30">[Pg 30]</span>such worship, in no way justifies such use, as
 against an objecting tax payer. If the right be
 conceded, then the length of time so devoted becomes
 a matter of discretion. If such right does
 not exist, then any length of time, however short,
-is forbidden.” (page 979.)
-#/
+is forbidden.” (page 979.)</p>
+</blockquote>
 
-Justice Orton, in concurring, thus speaks of
+<p>Justice Orton, in concurring, thus speaks of
 the evils of even in the slightest manner mixing
-religion with the government:
+religion with the government:</p>
 
-/#
-“There is no other such source and cause of
+<blockquote>
+<p>“There is no other such source and cause of
 strife, quarrels, fights, malignant opposition, persecution,
 and war, and all evil in the state, as
 religion. Let it once enter into our civil affairs,
@@ -1155,9 +1602,9 @@ taxed to support the common schools and who have
 equal rights and privileges in them. It is a source
 of religious and sectarian strife. That is enough.
 It violates the letter and spirit of the constitution.”
-(page 981.)
+(page 981.)</p>
 
-“It requires but little argument to prove that
+<p>“It requires but little argument to prove that
 the Protestant version of the Bible, or any other
 version of the Bible, is the source of religious strife
 and opposition, and opposed to the religious belief
@@ -1171,11 +1618,11 @@ school is one of the most indispensable, useful, and
 valuable civil institutions this state has. It is
 democratic and free to all alike, in perfect equality,
 where all the children of our people stand on a
-common platform, and enjoy the benefits of an
+<span class="pagenum" id="Page_31">[Pg 31]</span>common platform, and enjoy the benefits of an
 equal and common education. An enemy of our
-common schools is an enemy to our state government.
+common schools is an enemy to our state government.</p>
 
-“This case is important and timely. It brings
+<p>“This case is important and timely. It brings
 before the courts a case of plausible, insidious, and
 apparently innocent entrance of religion into our
 civil affairs, and of an assault upon the most
@@ -1184,13 +1631,15 @@ should be pondered and heeded by all of
 our people, of all nationalities and of all denominations
 of religion, who desire the perpetuity, and
 value the blessings of our free government.” (page
-982.)
-#/
+982.)</p>
+</blockquote>
 
 
-THE NEBRASKA CASE
+<h3 id="THE_NEBRASKA_CASE">
+  THE NEBRASKA CASE
+</h3>
 
-This case was decided by the supreme court
+<p>This case was decided by the supreme court
 of the state on October 9, 1902. It was the
 case of Daniel Freeman vs. School District No.
 21, appealed from Gage county. The teacher,
@@ -1202,10 +1651,10 @@ This teacher was evidently honest, and made
 no false pretenses, which is more than we can
 say of many others in her position and holding
 her views. Two extracts from the decision
-of the court are worthy of our attention:
+of the court are worthy of our attention:</p>
 
-/#
-“But if the system of compulsory education is
+<blockquote>
+<p>“But if the system of compulsory education is
 persevered in, and religious worship or sectarian
 instruction in the public schools is at the same
 time permitted, parents will be compelled to expose
@@ -1217,18 +1666,18 @@ training of their offspring elsewhere. It might be
 reasonably apprehended that such a practice, besides
 being unjust and oppressive to the persons
 immediately concerned, would, by its tendency to
-the multiplication of parochial and sectarian
+<span class="pagenum" id="Page_32">[Pg 32]</span>the multiplication of parochial and sectarian
 schools, tend forcibly to the destruction of one of
 the most important, if not indispensable, foundation
 stones of our form of government. It will be an
 evil day when anything happens to lower the public
 schools in public esteem, or to discourage attendance
 upon them by children of any class.” (page
-847.)
-#/
+847.)</p>
+</blockquote>
 
-/#
-“For more than three centuries it has been the
+<blockquote>
+<p>“For more than three centuries it has been the
 boast and exultation of Protestants and a complaint
 and grievance of the Roman Catholics that
 the various translations of the Bible, especially the
@@ -1266,7 +1715,7 @@ the church to do so, is objectionable, and an offense
 to their religious feelings; to some, the utterance
 of public prayer, except recitations from the
 Scripture, is a vain and a wicked act; and to
-some the songs and hymns of praise in which others
+<span class="pagenum" id="Page_33">[Pg 33]</span>some the songs and hymns of praise in which others
 engage are a stumbling-block and an offense. We
 do not think it wise or necessary to prolong a discussion
 of what appears to us an almost self-evident
@@ -1278,24 +1727,26 @@ feel inclined to make what might be looked upon
 as a spurious exhibition of learning by quoting at
 length from the many judicial decisions and utterances
 of eminent men in this country concerning
-the subject.” (pages 846–847.)
-#/
+the subject.” (pages 846–847.)</p>
+</blockquote>
 
-A motion for a rehearing of this case was
-denied.
+<p>A motion for a rehearing of this case was
+denied.</p>
 
 
-THE ILLINOIS CASE
+<h3 id="THE_ILLINOIS_CASE">
+  THE ILLINOIS CASE
+</h3>
 
-This was the case of The People <i>ex rel</i> Jeremiah
+<p>This was the case of The People <i>ex rel</i> Jeremiah
 Ring <i>et al.</i>, Plaintiffs in Error, vs. the
 Board of Education of District 24, etc., Defendant
 in Error. It was decided by the Illinois
 Supreme Court in June, 1910, and is to be
 found in the Reports of the state, Vol. 245,
-pages 334–378.
+pages 334–378.</p>
 
-The situation, briefly stated, was this: Mr.
+<p>The situation, briefly stated, was this: Mr.
 Ring, a Roman Catholic in belief, was sending
 his children to a district school in Scott county,
 Illinois, there being no Catholic school available
@@ -1309,7 +1760,7 @@ written therein, and the singing of hymns,
 among them one entitled, “Grace Enough for
 Me.” During such religious service the pupils
 were required to rise in their seats, fold their
-hands and bow their heads, and were sometimes
+<span class="pagenum" id="Page_34">[Pg 34]</span>hands and bow their heads, and were sometimes
 called on to explain the meaning of passages
 of scripture read. Mr. Ring had brought
 suit in the District Court of Scott county,
@@ -1326,16 +1777,16 @@ worship includes freedom not to worship</i>.”
 This, orthodox religionists have been slow to
 concede, and never before has the right <i>not
 to worship</i> been so clearly stated. On this
-point the court said:
+point the court said:</p>
 
-“The wrong arises, not out of the particular
+<p>“The wrong arises, not out of the particular
 version of the Bible or form of prayer used—whether
 that found in the Douay or the King
 James version—or the particular songs sung,
 but out of the <i>compulsion</i> to join in any form
-of worship.”
+of worship.”</p>
 
-The second point decided was that “<i>children
+<p>The second point decided was that “<i>children
 attending public school cannot be compelled to
 join in religious worship</i>,” and that the religious
 exercises as held in the school “constitute
@@ -1347,71 +1798,77 @@ the giving of such instruction in the schools
 by the teacher is illegal. Most important of
 all, the fourth point was that the reading of
 the Bible in public schools constitutes sectarian
-instruction. Here the court speaks plainly:
+instruction. Here the court speaks plainly:</p>
 
-“The Bible, in its entirety, is a sectarian
+<p><span class="pagenum" id="Page_35">[Pg 35]</span></p>
+
+<p>“The Bible, in its entirety, is a sectarian
 book as to the Jew and every believer in any
 religion other than the Christian religion and
 as to those who are heretical or who hold beliefs
 that are not regarded as orthodox. Whether
 it be called sectarian or not, its use in the
-schools necessarily results in sectarian instruction.”
+schools necessarily results in sectarian instruction.”</p>
 
-In delivering this decision the court gave
+<p>In delivering this decision the court gave
 forth a number of maxims worthy of being
-remembered, among which were:
+remembered, among which were:</p>
 
-“All stand equal before the law—the Protestant,
+<p>“All stand equal before the law—the Protestant,
 the Catholic, the Mohammedan, the
 Jew, the Mormon, the Freethinker, the Atheist.
 Whatever may be the view of the majority of
 the people, the court has no right, and the
 majority has no right to force that view upon
-the minority, however small.”
+the minority, however small.”</p>
 
-Regarding the status of a pupil in a school
+<p>Regarding the status of a pupil in a school
 who is permitted by the objection of himself
 or his parents to refrain from taking part in
-religious exercises, the Court said:
+religious exercises, the Court said:</p>
 
-“The exclusion of a pupil from this part of
+<p>“The exclusion of a pupil from this part of
 the school exercises in which the rest of the
 school joins, separates him from his fellows,
 puts him in a class by himself, deprives him
 of his equality with the other pupils, subjects
 him to a religious stigma and places him at
 a disadvantage in the school, which the law
-never contemplated.”
+never contemplated.”</p>
 
-The decision of the judge of the District
-Court of Scott county was reversed.
+<p>The decision of the judge of the District
+Court of Scott county was reversed.</p>
 
-At the Illinois constitutional convention of
+<p>At the Illinois constitutional convention of
 1920, an attempt was made to nullify this decision
 by inserting the following in the proposed
 new constitution: “The reading of selections
 from any version of the Old and New
 Testaments in the public schools without comment
 shall never be held to be in conflict with
-this constitution.”
+this constitution.”</p>
 
-The object of this was to force the Bible into
+<p><span class="pagenum" id="Page_36">[Pg 36]</span></p>
+
+<p>The object of this was to force the Bible into
 the schools and to make opponents of the
 tyranny helpless in protest. The people of
 Illinois, however, took the matter in hand, and
 on December 12, 1922, defeated the adoption of
 the new constitution by a majority of six to
-one.
+one.</p>
 
 
-THE CALIFORNIA CASE
+<h3 id="THE_CALIFORNIA_CASE">
+  THE CALIFORNIA CASE
+</h3>
 
-This case was decided by the Court of Appeals
+<p>This case was decided by the Court of Appeals
 of the state in December, 1922. It was
 based on a clause of the Constitution of California
-reading:
+reading:</p>
 
-“No public money shall ever be appropriated
+<p>“No public money shall ever be appropriated
 for the support of any sectarian school; ...
 nor shall any sectarian doctrine be taught or
 instruction therein permitted, directly or indirectly,
@@ -1421,48 +1878,50 @@ may not be a ‘sect’ in the strict interpretation
 of the term, the Protestant Bible
 contains the precepts of many of the Protestant
 denominations, and the ‘denomination’
-is merely another term for ‘sect’.”
+is merely another term for ‘sect’.”</p>
 
-As the arguments in this case were very
+<p>As the arguments in this case were very
 largely those used in the other cases they are
-not reproduced here.
+not reproduced here.</p>
 
-The New York Globe, in commenting upon
+<p>The New York Globe, in commenting upon
 the decision admits that the “authorized version”
 is “technically sectarian literature,”
 while the Brooklyn Citizen admits: “There
 can be no doubt as to the facts. The law is
 clear.” In California as in Illinois, the
 churches are going to try to nullify this decision
-by a constitutional amendment.
+by a constitutional amendment.</p>
 
-The following points now seem to be established
-in law:
+<p>The following points now seem to be established
+in law:</p>
 
-First: Any <i>version</i> of the Christian Bible
+<p>First: Any <i>version</i> of the Christian Bible
 is sectarian to those who do not accept it as
-the inspired word of God.
+the inspired word of God.</p>
 
-Second: One version of the Bible accepted
+<p><span class="pagenum" id="Page_37">[Pg 37]</span></p>
+
+<p>Second: One version of the Bible accepted
 by one denomination of Christians is sectarian
 to members of any other denomination which
-does not accept it.
+does not accept it.</p>
 
-Third: The Bible is distinctly a book of
+<p>Third: The Bible is distinctly a book of
 religion, and the teaching of it anywhere cannot
-fail to be construed as religious teaching.
+fail to be construed as religious teaching.</p>
 
-Fourth: Readings from the Bible, accompanied
+<p>Fourth: Readings from the Bible, accompanied
 or unaccompanied by prayer and the
 singing of religious hymns, are acts of religious
-worship.
+worship.</p>
 
-Fifth: If done in the public school room,
+<p>Fifth: If done in the public school room,
 during school hours, with the pupils present,
 it thereby makes the public school a place of
-religious worship.
+religious worship.</p>
 
-Sixth: As our citizens are compelled by law
+<p>Sixth: As our citizens are compelled by law
 either to send their children to the public
 schools or by other means provide for them an
 education, the use of the Bible in the school
@@ -1472,26 +1931,33 @@ American principle of no state religion
 and no union of church and state. The
 attempts of Protestants to place the Bible in
 the schools are very astute efforts to evade
-and nullify this principle.
+and nullify this principle.</p>
 
-Seventh: No church, or religion is entitled
+<p>Seventh: No church, or religion is entitled
 to any special privileges at the hands of the
 government. All the state is bound to do is
-to protect them all in their equal rights.
+to protect them all in their equal rights.</p>
 
-Eighth: Those professing no religion have
-the same rights as those who do.
-
-
+<p>Eighth: Those professing no religion have
+the same rights as those who do.</p>
 
 
-CHAPTER III
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
+<div class="chapter">
 
-<i>Fifteen Reasons Why the Bible Should Not Be
-in the School Room</i>
+<p><span class="pagenum" id="Page_38">[Pg 38]</span></p>
 
 
-I. <i>The Question of Religion Involved.</i> Those
+  <h2 class="nobreak" id="CHAPTER_III">
+    CHAPTER III
+    <br>
+    <i>Fifteen Reasons Why the Bible Should Not Be
+    in the School Room</i>
+  </h2>
+</div>
+
+
+<p>I. <i>The Question of Religion Involved.</i> Those
 who want the Bible read in the public schools
 declare it to be the word of God. Now it either
 is such or it is not. If taught as the word of
@@ -1525,13 +1991,13 @@ upon the public secular school, we have a right
 to assume that they are valueless. The Rev.
 Joseph Parker, the eminent English clergyman,
 who was opposed to thrusting the Bible
-into the schools, said that to do so was a reflection
+<span class="pagenum" id="Page_39">[Pg 39]</span>into the schools, said that to do so was a reflection
 upon the ministry. It implied that
 ministers are unable to do their own work
 and must call upon the schoolmaster to help
-them.
+them.</p>
 
-II. <i>The Age of the Bible.</i> A book written
+<p>II. <i>The Age of the Bible.</i> A book written
 over two thousand years ago, in the infancy
 of the human intelligence, before the birth of
 scientific knowledge, has no place as a text
@@ -1566,7 +2032,7 @@ greater philosophical genius of all the biblical
 writers, and that Benjamin Franklin was a
 wiser and a cleaner man morally than was
 Solomon. We think that Edison has done more
-good in the world than did Ezekiel, and that
+<span class="pagenum" id="Page_40">[Pg 40]</span>good in the world than did Ezekiel, and that
 Isaac Newton proclaimed greater truths than
 did Isaiah. We think that Buddha, Confucius,
 Manu, and Zoroaster taught as good systems
@@ -1593,9 +2059,9 @@ people who had no mechanics among them, but
 when their king wanted to build a house for
 himself had to send to a “heathen,” Hiram,
 king of Tyre, for masons and carpenters? (2
-Samuel v, 11.)
+Samuel v, 11.)</p>
 
-III. <i>The Bible is not a book</i>, but a collection
+<p>III. <i>The Bible is not a book</i>, but a collection
 of books, written hundreds of years apart,
 and arbitrarily, in the midst of great and
 stormy controversy, gathered together in one
@@ -1607,15 +2073,15 @@ sixty-six, while the Roman Catholic or Douay
 version in addition to these contains the
 Apocrypha, making in all seventy-two. These
 different factions of religionists respectively
-reject certain books the others accept. For a
+<span class="pagenum" id="Page_41">[Pg 41]</span>reject certain books the others accept. For a
 history of the controversies over what books
 should compose the Bible, see Davidson on
 “The Canon,” “An Introduction to the New
 Testament,” by the Rev. B. W. Bacon, D.D., of
 the Yale Divinity School, and the article on
-the Canon in the Encyclopedia Biblica.
+the Canon in the Encyclopedia Biblica.</p>
 
-IV. Unless used for the purpose of teaching
+<p>IV. Unless used for the purpose of teaching
 some foreign language, any book studied in
 the public schools should be written in the
 English language, not in a foreign or a dead
@@ -1634,9 +2100,9 @@ Luther’s version is nearly four hundred years
 old, and yet Germany has seventeen translations
 and consequently seventeen versions before
 Luther’s was published. England had
-many besides those named.”
+many besides those named.”</p>
 
-V. The Bible should not be read in the public
+<p>V. The Bible should not be read in the public
 schools because so many false and unfounded
 claims have been made for it, claims
 that have been nullified by the conclusions of
@@ -1649,7 +2115,7 @@ by Moses in the thirteenth century B. C.;
 that the four gospels of the New Testament
 were written by those whose names appear as
 the writers; that Paul wrote the fourteen
-epistles that bear his name, and fictitious
+<span class="pagenum" id="Page_42">[Pg 42]</span>epistles that bear his name, and fictitious
 claims are made for other books. In the face
 of modern scholarship, which has submitted
 the Bible to the same scrutiny and criticism to
@@ -1658,9 +2124,9 @@ these claims have been proved false and unfounded.
 This is so clear that the orthodox
 churches have split over the situation, one
 party accepting the old or traditional view,
-and the other the modern or scientific.
+and the other the modern or scientific.</p>
 
-VI. As Archdeacon Farrar has said, all
+<p>VI. As Archdeacon Farrar has said, all
 parts of the Bible are not of equal value. The
 sixty-six books bound into one represent every
 variety of literature—poetry, fiction, mythology,
@@ -1668,9 +2134,9 @@ drama, legend, tradition, and some things
 possibly historical. Yet the popular teaching
 of the books makes no distinction between
 them, and uncritically places all upon the same
-level and gives them the same value.
+level and gives them the same value.</p>
 
-VII. The Bible should not be read in the
+<p>VII. The Bible should not be read in the
 schools because it relates as facts numerous
 miracles, wonders, and myths, impossible in
 the nature of things, as the established matter-of-fact
@@ -1680,9 +2146,9 @@ superstition, and fraud. In the ordinary course
 of life we laugh at such narratives and regard
 them only as fairy tales. Why, then, in the
 instruction of youth should we teach what we
-ourselves dismiss as the fictitious and absurd?
+ourselves dismiss as the fictitious and absurd?</p>
 
-VIII. The history of man proves that he
+<p>VIII. The history of man proves that he
 has been enlightened, happy, and prosperous
 to the extent that he has had a knowledge of
 Nature and her laws, and that ignorance, superstition,
@@ -1692,7 +2158,7 @@ of, these laws. In other words, science has
 been the great enlightener and civilizer. Science
 today is the basis for judgment in all
 matters pertaining to the welfare of the human
-race. Science has been called classified knowledge,
+<span class="pagenum" id="Page_43">[Pg 43]</span>race. Science has been called classified knowledge,
 or as Professor Clifford has said, it is
 “organized common sense.” “The subject of
 science is the human universe; that is to say,
@@ -1718,9 +2184,9 @@ age of the world. Its story of creation is a
 fairy tale only believable in an age of ignorance.
 Its story of the origin of man is childish,
 being on a par with similar myths of
-ancient peoples.
+ancient peoples.</p>
 
-The Bishop of Oxford (England) has this to
+<p>The Bishop of Oxford (England) has this to
 say about the teachings of these myths to children:
 “You can hardly exaggerate the disaster
 it has been to the education of children that
@@ -1733,7 +2199,7 @@ false and would reject as alien to the whole
 trend of the philosophy, science, and history of
 their time.” This statement, coming from a
 clergyman of such high standing, ought to be
-conclusive. We have neither the space nor
+<span class="pagenum" id="Page_44">[Pg 44]</span>conclusive. We have neither the space nor
 the time to dilate upon the conflict between
 the Bible and science and the bitter struggle
 between religionists and the scientists. The
@@ -1754,9 +2220,9 @@ It is only a revival of the old conflict
 between education and ignorance, between superstition
 and knowledge. The cause of it
 all has been the use of the Bible as a book of
-authority and teaching.
+authority and teaching.</p>
 
-IX. The Bible has no place in the school
+<p>IX. The Bible has no place in the school
 room because it states as facts the grossest absurdities.
 It speaks of an ax swimming in the
 water (2 Kings vi, 5); it speaks of “an hundred
@@ -1773,10 +2239,10 @@ two upon a staff” (Numbers xiii, 23);
 that “we saw the giants, and the sons of Anak,
 which came of the giants: and we were in
 our own sight as grasshoppers, and so we were
-in their sight” (verse 33), and that the rabbit
-chews its cud like the cow (Lev. ii, 6).
+<span class="pagenum" id="Page_45">[Pg 45]</span>in their sight” (verse 33), and that the rabbit
+chews its cud like the cow (Lev. ii, 6).</p>
 
-We will call the reader’s attention to the very
+<p>We will call the reader’s attention to the very
 absurd story of the Israelites’ exodus from
 Egypt, as shown by R. B. Westbrook, in his
 work, “The Eliminator: or Skeleton Keys to
@@ -1806,23 +2272,23 @@ there would have been only 6,311 males
 the Exodus), instead of 1,000,000. If we add
 the fifth generation, who would be mostly children,
 the total number of males would not
-have exceeded 28,465.
+have exceeded 28,465.</p>
 
-“All the first-born males from a month old
+<p>“All the first-born males from a month old
 and upwards, of those that were numbered,
 were 22,273 (Numbers iii, 43). The lowest
 computation of the whole number of the people
 at that time is 2,000,000. The number of
 males would be 1,000,000. Dividing the latter
 number by the number of first born gives 44,
-which would be the average number of boys in
+<span class="pagenum" id="Page_46">[Pg 46]</span>which would be the average number of boys in
 each family, or about 88 children by each
 mother. Or, if where the first born were females
 the males were not counted, the number
 of children by each mother would be reduced
-to forty-four.
+to forty-four.</p>
 
-“Dan in the first generation had but one
+<p>“Dan in the first generation had but one
 son (Gen. xlvi, 23), and yet in the fourth generation
 his descendants had increased to 62,700
 warriors (Num. ii, 26), or 64,400 (Num.
@@ -1834,9 +2300,9 @@ old and upward’ during the thirty-eight years
 in the wilderness only from 22,000 to 23,000
 (Num. iii, 39; xxvi, 62), and the tribe of Manasseh
 during the same time increased from 32,200
-(Num. i, 35) to 52,700 (xxvi, 34).
+(Num. i, 35) to 52,700 (xxvi, 34).</p>
 
-“The whole population of Israel were instructed
+<p>“The whole population of Israel were instructed
 in one single day to keep the passover,
 and actually did keep it (Ex. xii). At
 the first notice of any such feast Jehovah said,
@@ -1852,12 +2318,12 @@ could 2,000,000 people, scattered over a wide
 district, as they must have been with their
 cattle and herds, have gotten ready and taken
 a simultaneous hurried flight at twelve hours’
-notice?
+notice?</p>
 
-“The Israelites, with their flocks and herds,
+<p>“The Israelites, with their flocks and herds,
 reached the Red Sea, a distance of from fifty
 to sixty miles over a sandy desert, in three
-days! Marching fifty abreast the able-bodied
+<span class="pagenum" id="Page_47">[Pg 47]</span>days! Marching fifty abreast the able-bodied
 warriors alone would have filled up the road
 for seven miles, and the whole multitude would
 have made a column twenty-two miles long, so
@@ -1874,9 +2340,9 @@ gravelly, and stony alternately? How did the
 people manage with the sick and infirm, and
 especially with the seven hundred and fifty
 births that must have taken place in the three
-days’ march?” (pages 85, 86, 87.)
+days’ march?” (pages 85, 86, 87.)</p>
 
-In addition to this we need say nothing of
+<p>In addition to this we need say nothing of
 the story of the flood or other ridiculous Bible
 tales. The land of Caanan is described in the
 Bible as “a land flowing with milk and honey,”
@@ -1884,9 +2350,9 @@ as a rich land, where gold and silver were as
 abundant as stones. We turn from this high
 sounding Jewish boast to the description of it
 as given by General Furlong, of the British
-army, who had marched over every mile of it:
+army, who had marched over every mile of it:</p>
 
-“The area of Judea and Samaria is, according
+<p>“The area of Judea and Samaria is, according
 to the above authority, 140 × 40 = 5,600
 square miles, which I think is certainly one-fourth
 too much, my own triangulation of it
@@ -1898,7 +2364,7 @@ intersecting valleys, watered by springs and
 heavy rain from November to February inclusive,
 and having scorching heats from April
 to September. Even the inhabitable portions
-of the country could support only the very
+<span class="pagenum" id="Page_48">[Pg 48]</span>of the country could support only the very
 sparsest population, and I speak after having
 marched over it and also a considerable portion
 of the rest of the world. In India we
@@ -1906,13 +2372,13 @@ should look upon it as a very poor province;
 in some respects very like the hilly tracts of
 Mewar or Odeypoor in Rajpootana, but in extent,
 population, and wealth it is less than a
-small principality.”
+small principality.”</p>
 
-Why should we place a book in the schools
+<p>Why should we place a book in the schools
 which teaches such falsehoods when all around
-us are the grand truths of Nature?
+us are the grand truths of Nature?</p>
 
-X. The Bible should not be read in the
+<p>X. The Bible should not be read in the
 schools because it teaches oriental tyranny and
 kingcraft, against which our fathers fought
 and offered their life blood. “Fear God, honor
@@ -1929,9 +2395,9 @@ God: the powers that be are ordained of God”
 principles of Americanism as taught by the
 founders of our republic, and has no place in
 the instruction of the young Americans of today
-in our public schools.
+in our public schools.</p>
 
-XI. As one of the most progressive nations
+<p>XI. As one of the most progressive nations
 in the world we have granted woman equal
 rights with man. The Bible should not be
 read in our schools because it teaches the subjugation,
@@ -1940,7 +2406,7 @@ women prevalent in the age and country in
 which it was written. “Unto the woman he
 said, I will greatly multiply thy sorrow and thy
 conception; in sorrow thou shalt bring forth
-children: and thy desire shall be to thy husband,
+<span class="pagenum" id="Page_49">[Pg 49]</span>children: and thy desire shall be to thy husband,
 and he shall rule over thee” (Genesis
 iii, 16). “Wives, submit yourselves to your
 own husbands” (Col. iii, 18). “As the church
@@ -1980,35 +2446,35 @@ to sell her as a slave (Ex. xxi, 7). Let
 these ladies, who are the right bower of the
 priest and parson, read and think over this
 passage: “When a man hath taken a wife,
-and marries her, and it come to pass that she
+<span class="pagenum" id="Page_50">[Pg 50]</span>and marries her, and it come to pass that she
 find no favor in his eyes, ... then let him
 write her a bill of divorcement, and give it in
 her hand, and send her out of his house”
 (Deut. xxiv, 1). Yet this is not quite so bad
 as the teaching of Jesus forbidding divorce at
 all except for the cause of adultery. Let them
-read and think of the following:
+read and think of the following:</p>
 
-“Thus saith the Lord, Behold, I will raise
+<p>“Thus saith the Lord, Behold, I will raise
 up evil against thee in thine own house, and
 I will take thy wives before thine eyes, and
 give them unto thy neighbor, and he shall lie
 with thy wives in the sight of the sun” (2
-Samuel xii, 11).
+Samuel xii, 11).</p>
 
-“Their children shall be dashed to pieces
+<p>“Their children shall be dashed to pieces
 before their eyes; their houses shall be spoiled
-and their wives ravished” (Isaiah xiii, 16).
+and their wives ravished” (Isaiah xiii, 16).</p>
 
-“I will gather all nations against Jerusalem
+<p>“I will gather all nations against Jerusalem
 to battle; and the city shall be taken, and the
 houses rifled, and the women ravished” (Zech.
-xiv, 2).
+xiv, 2).</p>
 
-“Let their wives be bereaved of their children
-and be widows” (Jer. xviii, 21).
+<p>“Let their wives be bereaved of their children
+and be widows” (Jer. xviii, 21).</p>
 
-Wherever the Bible speaks of woman, from
+<p>Wherever the Bible speaks of woman, from
 the first chapter of Genesis to the last chapter
 of Revelation, its ideas are low and vile. Those
 ideas have no place in the school room and are
@@ -2016,15 +2482,15 @@ unfit for the reading of children and young
 people anywhere. The late G. W. Foote once
 said that the day would come when it would
 be the proud boast of woman that she had never
-contributed a line to the Bible.
+contributed a line to the Bible.</p>
 
-XII. The best thoughts of the best men, both
+<p>XII. The best thoughts of the best men, both
 Christian and non-Christian, at the present
 day are turned to the question of how to avert
 war, the curse of the world during the past
 ten years. The Bible should not be read in
 the schools because from cover to cover it
-teaches, commends, authorizes, and lauds the
+<span class="pagenum" id="Page_51">[Pg 51]</span>teaches, commends, authorizes, and lauds the
 practice of men killing each other. The best
 evidence of this is the Bible itself. The word
 war occurs within its lids just two hundred and
@@ -2049,9 +2515,9 @@ and their little ones, and took the spoil of all
 their cattle, and all their flocks and all their
 goods. And they burned all their cities wherein
 they dwelt, and all their goodly castles with
-fire” (Numbers xxxi, 10).
+fire” (Numbers xxxi, 10).</p>
 
-These passages are typical of the Old Testament.
+<p>These passages are typical of the Old Testament.
 To quote further would be superfluous
 and wearisome. In the second chapter of Deuteronomy,
 fourth and eighth verses, we find a
@@ -2060,13 +2526,13 @@ Germans through Belgium in the late European
 war, an outrage against all international law
 and the established rules of justice which govern
 nations in their intercourse with each
-other.
+other.</p>
 
-Read the fourteenth chapter of Numbers and
+<p>Read the fourteenth chapter of Numbers and
 Deuteronomy ix, 23, and see why all of the children
 of Israel twenty years old and over were
 doomed to spend the remainder of their lives
-in the wilderness. Why? Because they refused
+<span class="pagenum" id="Page_52">[Pg 52]</span>in the wilderness. Why? Because they refused
 to <i>war</i> against the inhabitants of the land of
 Canaan. When the people told Jeremiah that
 they would go into Egypt where they would
@@ -2092,108 +2558,110 @@ fiftieth verse of the same chapter; “And one
 of them smote the servant of the high priest,
 and cut off his right ear.” With what did he
 do this, the sword of the spirit? And there
-still was war, even in heaven (Rev. xii, 7).
+still was war, even in heaven (Rev. xii, 7).</p>
 
-As Archdeacon Farrar well said, “The Bible
+<p>As Archdeacon Farrar well said, “The Bible
 is a barbarous book, written in a barbarous
 age for a barbarous people.” Do we want this
 book read in our public schools against the
 best thought, the highest learning and the
 most humanitarian views of this age? The
 people who advocate its reading there require
-watching.
+watching.</p>
 
-XIII. The Bible should not be read in the
+<p>XIII. The Bible should not be read in the
 public schools because it contradicts itself
 nearly two hundred times. We will give a few
-illustrations:
+illustrations:</p>
 
-“And he said, <i>Thou shalt not see my face</i>:
-for there shall no man see me and live” (Ex.
-xxxiii, 20).
+<p>“And he said, <i>Thou shalt not see my face</i>:
+<span class="pagenum" id="Page_53">[Pg 53]</span>for there shall no man see me and live” (Ex.
+xxxiii, 20).</p>
 
-“<i>And the Lord spake unto Moses face to face</i>,
-as a man speaketh unto his friend” (11).
+<p>“<i>And the Lord spake unto Moses face to face</i>,
+as a man speaketh unto his friend” (11).</p>
 
-“And the men which journeyed with him
+<p>“And the men which journeyed with him
 stood speechless, <i>hearing a voice</i>, but seeing
-no man” (Acts ix, 7).
+no man” (Acts ix, 7).</p>
 
-“And they that were with me saw indeed
+<p>“And they that were with me saw indeed
 the light, and were afraid; but <i>they heard not
-the voice</i> of him that spake to me” (xxii, 9).
+the voice</i> of him that spake to me” (xxii, 9).</p>
 
-Jesus said, “If any man hear my words, and
+<p>Jesus said, “If any man hear my words, and
 believe not, <i>I judge him not</i>: for <i>I came not to
 judge the world</i>, but to save the world” (John
-xii, 47).
+xii, 47).</p>
 
-“For the Father judgeth no man; <i>but hath
-committed all judgment to the son</i>” (v. 22).
+<p>“For the Father judgeth no man; <i>but hath
+committed all judgment to the son</i>” (v. 22).</p>
 
-“And the anger of <i>the Lord</i> was kindled
+<p>“And the anger of <i>the Lord</i> was kindled
 against Israel, and he moved David against
 them to say, Go, number Israel and Judah” (2
-Samuel xxiv, 1).
+Samuel xxiv, 1).</p>
 
-“And <i>Satan</i> stood up against Israel, and provoked
+<p>“And <i>Satan</i> stood up against Israel, and provoked
 David to number Israel” (1 Chronicles
-xxi, 1).
+xxi, 1).</p>
 
-“The Jews therefore said unto him, <i>It is not
+<p>“The Jews therefore said unto him, <i>It is not
 lawful for us to put any man to death</i>” (John
-xviii, 31).
+xviii, 31).</p>
 
-“The Jews answered him, We have a law,
-and <i>by our law he ought to die</i>” (John xiv, 7).
+<p>“The Jews answered him, We have a law,
+and <i>by our law he ought to die</i>” (John xiv, 7).</p>
 
-What women visited the tomb on the morning
-of the resurrection?
+<p>What women visited the tomb on the morning
+of the resurrection?</p>
 
-“The first day of the week cometh <i>Mary Magdalene</i>,
+<p>“The first day of the week cometh <i>Mary Magdalene</i>,
 early when it was yet dark, unto the
-sepulchre” (John xx, 1).
+sepulchre” (John xx, 1).</p>
 
-“In the end of the Sabbath, as it began to
+<p>“In the end of the Sabbath, as it began to
 dawn toward the first day of the week, came
 <i>Mary Magdalene and the other Mary</i> to see the
-sepulchre” (Matt. xxviii, 1).
+sepulchre” (Matt. xxviii, 1).</p>
 
-“Now upon the first day of the week, very
+<p><span class="pagenum" id="Page_54">[Pg 54]</span></p>
+
+<p>“Now upon the first day of the week, very
 early in the morning, they came unto the sepulchre....
 It was <i>Mary Magdalene, and
 Joanna, and Mary the mother of James, and
-other women</i>” (Luke xxiv, 10).
+other women</i>” (Luke xxiv, 10).</p>
 
-At what time in the morning did they visit
-the tomb?
+<p>At what time in the morning did they visit
+the tomb?</p>
 
-“At the rising of the sun” (Mark xvi, 2).
+<p>“At the rising of the sun” (Mark xvi, 2).</p>
 
-“When it was yet dark” (John xx, 1).
+<p>“When it was yet dark” (John xx, 1).</p>
 
-Where did Jesus first appear to his disciples?
+<p>Where did Jesus first appear to his disciples?</p>
 
-“Then said Jesus unto them (the women)
+<p>“Then said Jesus unto them (the women)
 Be not afraid; go tell my brethren <i>that they
 go into Galilee</i>, into a mountain where Jesus
 had appointed them. And when they saw him
 they worshiped him; but some doubted (Matt.
-xxviii, 10, 16, 17).
+xxviii, 10, 16, 17).</p>
 
-“And they rose up the same hour, and <i>returned
+<p>“And they rose up the same hour, and <i>returned
 to Jerusalem</i>, and found the eleven
 gathered together, and them that were with
 them, saying, The Lord is risen indeed, and
 hath appeared unto Simon.... And as they
 thus spake, Jesus himself stood in the midst
-of them” (Luke xxiv, 33, 34, 36).
+of them” (Luke xxiv, 33, 34, 36).</p>
 
-Did the disciples know that Jesus would arise
+<p>Did the disciples know that Jesus would arise
 from the dead? According to Mark x, 32, 33
-and 34, they did:
+and 34, they did:</p>
 
-“And he took again the twelve, and began
+<p>“And he took again the twelve, and began
 to tell them what things should happen unto
 him, saying, Behold, we go up to Jerusalem;
 and the Son of man shall be delivered unto the
@@ -2204,44 +2672,46 @@ and shall scourge him, and shall spit upon
 him, and shall kill him; <i>and the third day he
 shall rise again</i>.” Yet John xx, 9 distinctly
 says, “<i>For as yet they knew not the scripture,
-that he must rise again from the dead.</i>”
+that he must rise again from the dead.</i>”</p>
 
-Did John the Baptist know Jesus when he
+<p><span class="pagenum" id="Page_55">[Pg 55]</span></p>
+
+<p>Did John the Baptist know Jesus when he
 came unto him to be baptized? He did, according
 to Matt. iii, 13, 14: “Then cometh Jesus
 from Galilee to Jordan unto John, to be baptized
 of him. But John forbade him, saying,
 <i>I have need to be baptized of thee, and comest
-thou to me?</i>”
+thou to me?</i>”</p>
 
-Yet John himself admits that he did not
-know him:
+<p>Yet John himself admits that he did not
+know him:</p>
 
-“<i>And I knew him not</i>: but he that sent me to
+<p>“<i>And I knew him not</i>: but he that sent me to
 baptize with water, the same said unto me,
 Upon whom thou shalt see the spirit descending
 and remaining on him, the same is he that
 baptizes with the holy ghost. And I saw, and
 bare record, that this is the Son of God” (John
-i, 33).
+i, 33).</p>
 
-There is also another very material contradiction
+<p>There is also another very material contradiction
 as to what the centurion at the cross
-said:
+said:</p>
 
-“Now when the centurion, and they that were
+<p>“Now when the centurion, and they that were
 with him, watching Jesus, saw the earthquake,
 and those things that were done, they feared
 greatly, saying, ‘<i>Truly, this was the Son of
-God</i>’” (Matt. xxvii, 54).
+God</i>’” (Matt. xxvii, 54).</p>
 
-Luke gives an entirely different version:
+<p>Luke gives an entirely different version:</p>
 
-“Now when the centurion saw what was
+<p>“Now when the centurion saw what was
 done, he glorified God, saying, <i>Certainly this
-was a righteous man</i>” (xxiii, 47).
+was a righteous man</i>” (xxiii, 47).</p>
 
-Are works necessary for salvation, or is
+<p>Are works necessary for salvation, or is
 faith alone sufficient? “Knowing that a man
 is not justified by the works of the law, but
 by the faith of Jesus Christ, even we have believed
@@ -2251,27 +2721,27 @@ works of the law: for by the works of the
 law shall no flesh be justified” (Galatians ii,
 16). “If righteousness come by the law, then
 Christ is dead in vain” (21). “Therefore, we
-conclude that a man is justified by faith without
-the deeds of the law” (Romans iii, 28).
+<span class="pagenum" id="Page_56">[Pg 56]</span>conclude that a man is justified by faith without
+the deeds of the law” (Romans iii, 28).</p>
 
-“But wilt thou know, O vain man, that faith
+<p>“But wilt thou know, O vain man, that faith
 without works is dead” (James ii, 20). “For
 as the body without the spirit is dead, so faith
 without works is dead also” (26). “Ye see then
 how that by works a man is justified, and not
-by faith only” (24).
+by faith only” (24).</p>
 
-“And I appeared unto Abraham, unto Isaac,
+<p>“And I appeared unto Abraham, unto Isaac,
 and unto Jacob by the name of God Almighty,
 <i>but by my name Jehovah was I not known to
 them</i>” (Exodus vi, 3). “<i>And Abraham called
 the name of the place Jehovah-jireh</i>” (Genesis
-xxii, 14).
+xxii, 14).</p>
 
-These are but a few of the contradictions
-of the Bible, selected at random from hundreds.
+<p>These are but a few of the contradictions
+of the Bible, selected at random from hundreds.</p>
 
-XIV. The Bible should not be read in the
+<p>XIV. The Bible should not be read in the
 public schools because it teaches, by direct
 commands, by the praise of them, by acknowledgment
 of their habitual use as a matter of
@@ -2294,7 +2764,7 @@ stands for total abstinence. In the Bible, total
 abstinence is commanded under special circumstances.
 For illustration, a Nazarite must not
 drink during the period of his separation. When
-that period is passed he may drink all he
+<span class="pagenum" id="Page_57">[Pg 57]</span>that period is passed he may drink all he
 wishes. (See Numbers vi, 3, 20.) Jehovah
 said unto Aaron, in his official capacity as
 high-priest: “Do not drink wine or strong
@@ -2319,9 +2789,9 @@ command as to other people: “Give strong
 drink unto him that is ready to perish, and
 wine to those that be of heavy hearts. Let him
 drink and forget his poverty and remember
-his misery no more.”
+his misery no more.”</p>
 
-Moses told the children of Israel: “Ye have
+<p>Moses told the children of Israel: “Ye have
 not eaten bread, neither have ye drank wine
 or strong drink: that ye may know that I am
 the Lord your God” (Deut. xxix, 6). But this
@@ -2335,15 +2805,15 @@ sheep, <i>or for wine, or for strong drink</i>, or for
 whatsoever thy soul desireth.” Jesus said,
 “Verily I say unto you, I will drink no more
 of the fruit of the vine”—because it was wrong
-to do so? On the contrary, “until that day
+<span class="pagenum" id="Page_58">[Pg 58]</span>to do so? On the contrary, “until that day
 that I drink it new in the kingdom of God”
 (Mark xiv, 25). We admit such temperance
 passages as are to be found in Proverbs xx, 1,
 and in Isaiah v, 11. These refer strictly to the
 abuse, not to the moderate use of alcoholic
-liquors.
+liquors.</p>
 
-Let us now look at other passages where the
+<p>Let us now look at other passages where the
 use of intoxicants is not only commended but
 commanded. We have space to refer to but a
 few of them. “Drink no longer water, but use
@@ -2363,9 +2833,9 @@ to be poured unto the Lord for a drink offering”
 thy substance, and with the first fruits of all
 thine increase; so shall thy barns be filled
 with plenty, and thy presses shall burst out
-with new wine” (Proverbs iii, 9, 10).
+with new wine” (Proverbs iii, 9, 10).</p>
 
-When God decided that the human race was
+<p>When God decided that the human race was
 so bad that he would have to drown everybody
 he selected one man and his family to be saved—Noah.
 Yet when the flood had subsided,
@@ -2377,7 +2847,7 @@ under the influence of wine would not make
 a very edifying subject for a Sunday school
 lesson (See Genesis xix, 30–38). David got drunk
 himself and danced before the ark in a state of
-nudity, after giving each of all the people “a
+<span class="pagenum" id="Page_59">[Pg 59]</span>nudity, after giving each of all the people “a
 flagon of wine” (2 Samuel vi, 14, 16, 19). Yet
 God said, “David ... a man after mine own
 heart, which shall fulfill all my will” (Acts.
@@ -2392,43 +2862,43 @@ were total abstainers, to drink (See Jeremiah
 xxxv, 2). Yet this same God on another occasion
 said, “Woe unto him that giveth his
 neighbor drink, that puttest thy bottle to him
-and makest him drunken” (Habakkuk ii, 15).
+and makest him drunken” (Habakkuk ii, 15).</p>
 
-The first miracle of Jesus was the transforming
+<p>The first miracle of Jesus was the transforming
 of water into wine (John ii, 3–11), and in
 Luke vii, 33, 34, are these words: “For John
 the Baptist came neither eating bread, nor
 drinking wine; and ye say, He hath a devil.
 The Son of man is come eating and drinking;
 and ye say, Behold a gluttonous man, and a
-wine bibber, a friend of publicans and sinners.”
+wine bibber, a friend of publicans and sinners.”</p>
 
-Bible advocates of temperance sometimes
+<p>Bible advocates of temperance sometimes
 quote the following passages from Paul, as evidence,
-to them, of Bible teaching of total abstinence.
+to them, of Bible teaching of total abstinence.</p>
 
-“It is good neither to eat flesh, nor to drink
+<p>“It is good neither to eat flesh, nor to drink
 wine, nor anything whereby thy brother stumbleth,
-or is made weak.” (Romans xiv:21.)
+or is made weak.” (Romans xiv:21.)</p>
 
-Also, “Wherefore, if meat make my brother
+<p>Also, “Wherefore, if meat make my brother
 to offend, I will eat no flesh while the word
 standeth, lest I make my brother to offend.”
-(1 Corinthians viii:13).
+(1 Corinthians viii:13).</p>
 
-It will be noticed in the first that <i>flesh</i> comes
+<p>It will be noticed in the first that <i>flesh</i> comes
 before wine, while in the second, wine is not
 mentioned at all. When you read the context in
 both cases you will find that Paul is merely
-warning his hearers against meat offered to
+<span class="pagenum" id="Page_60">[Pg 60]</span>warning his hearers against meat offered to
 idols and that wine is only mentioned incidentally.
 But when you turn to 1 Timothy, v:23,
 Paul imperatively says, “DRINK NO LONGER
 WATER, BUT USE A LITTLE WINE FOR
 THY STOMACH’S SAKE, AND THINE OFTEN
-INFIRMITIES.”
+INFIRMITIES.”</p>
 
-When confronted by these texts and the facts
+<p>When confronted by these texts and the facts
 which they carry, bibliolaters are driven to the
 entirely false and fictitious plea that Bible wine
 was not intoxicating, that it might drown but
@@ -2441,9 +2911,9 @@ we refer him to John E. Remsburg’s book,
 of scholarship, “The Encyclopedia Biblica”; to
 that well-known orthodox work, Smith’s “Bible
 Dictionary,” and to “Religion and Drink,” by
-Rev. E. A. Wasson.
+Rev. E. A. Wasson.</p>
 
-Under our liquor laws as at present interpreted
+<p>Under our liquor laws as at present interpreted
 a priest, preacher, or rabbi is permitted
 to purchase all the drink he desires for “sacramental”
 purposes, while a physician is limited
@@ -2460,9 +2930,11 @@ the privileges they claim for themselves, then
 add insult to injury by trying to force upon the
 country by law a book which advocates, teaches,
 abets, preaches, and practices what they want
-by law forbidden.
+by law forbidden.</p>
 
-XV. The entire idea under which they wish
+<p><span class="pagenum" id="Page_61">[Pg 61]</span></p>
+
+<p>XV. The entire idea under which they wish
 to place the Bible in the schools is wrong. Why
 glorify one book above another? Any book to
 be of service to a reader must be his servant,
@@ -2473,30 +2945,26 @@ If a book answers that test it is not
 necessary to praise it eternally, to say nothing
 of asking special laws for its recognition. The
 idea has been well expressed by the poet Lowell
-in these words:
+in these words:</p>
 
-/P
-    “Slowly the Bible of the race is writ,
-     And not on paper leaves or leaves of stone;
-     Each age, each kindred, adds a verse to it,
-     Texts of despair or hope, of joy or moan;
-     While swings the sea, while mists the mountains shroud,
-     While thunder’s surges burst on cliffs of cloud,
-     Still at the prophet’s feet the nations sit.”
-P/
+<div class="poetry-container">
+  <div class="poetry">
+    <div class="stanza">
+      <div class="verse indent0">“Slowly the Bible of the race is writ,</div>
+      <div class="verse indent1">And not on paper leaves or leaves of stone;</div>
+      <div class="verse indent1">Each age, each kindred, adds a verse to it,</div>
+      <div class="verse indent1">Texts of despair or hope, of joy or moan;</div>
+      <div class="verse indent1">While swings the sea, while mists the mountains shroud,</div>
+      <div class="verse indent1">While thunder’s surges burst on cliffs of cloud,</div>
+      <div class="verse indent1">Still at the prophet’s feet the nations sit.”</div>
+    </div>
+  </div>
+</div>
 
-No volume can be made large enough to contain
+<p>No volume can be made large enough to contain
 this BIBLE, yet to it all other books must
-conform.
+conform.</p>
 
-
-
-
-FOOTNOTES:
-
-
-[Footnote 1: Religionists in some places are now opposing the
-use of Wells’ “Outline of History” in high schools
-and colleges because some of its views are not
-orthodox and conventional. Yet they, a minority,
-would force their Bible by law upon all.]
+</main>
+</body>
+</html>
