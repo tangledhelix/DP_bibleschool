@@ -50,6 +50,11 @@ hr.r65 {width: 65%; margin-top: 3em; margin-bottom: 3em; margin-left: 17.5%; mar
 div.chapter {page-break-before: always;}
 h2.nobreak  {page-break-before: avoid;}
 
+.fm-xs { font-size: 80%; }
+.fm-s { font-size: 90%; }
+.fm-l { font-size: 120%; }
+.fm-xl { font-size: 150%; }
+
 ul.index { list-style-type: none; }
 li.ifrst {
     margin-top: 1em;
@@ -327,37 +332,38 @@ p.drop-cap::first-letter {
 <body>
 
 <p><span class="pagenum" id="Page_1">[Pg 1]</span></p>
-
-
-<p class="center">LITTLE BLUE BOOK NO. <b>706</b>
+<p class="center"><span class="fm-l">LITTLE BLUE BOOK NO. <b>706</b></span><br>
 Edited by E. Haldeman-Julius</p>
 
-<p class="center">The Bible: Should It Be in
-the School Room?</p>
+<h1 class="p2">The Bible: Should It Be in
+the School Room?</h1>
 
-<p class="center">The Question Considered Legally, Morally
+<p class="center fm-l">The Question Considered Legally, Morally
 and Religiously</p>
 
-<p class="center">Franklin Steiner</p>
+<p class="center fm-xl">Franklin Steiner</p>
 
-
-<p class="center">HALDEMAN-JULIUS COMPANY
+<p class="center p4 fm-l">HALDEMAN-JULIUS COMPANY<br>
 GIRARD, KANSAS</p>
 
 
 <p><span class="pagenum" id="Page_2">[Pg 2]</span></p>
 
-
-<p class="center">Copyright, 1924,
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
+<div class="chapter">
+<p class="center">Copyright, 1924,<br>
 Haldeman-Julius Company.</p>
 
-<p class="center">PRINTED IN THE UNITED STATES OF AMERICA</p>
+<p class="center p4">PRINTED IN THE UNITED STATES OF AMERICA</p>
+</div>
 
 <p><span class="pagenum" id="Page_3">[Pg 3]</span></p>
 
-
-<p class="center">THE BIBLE: SHOULD IT BE IN THE
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
+<div class="chapter">
+<p class="center fm-xl">THE BIBLE: SHOULD IT BE IN THE
 SCHOOL ROOM?</p>
+</div>
 
 <hr class="chap x-ebookmaker-drop" aria-hidden="true">
 <div class="chapter">
@@ -460,14 +466,11 @@ arguments.</p>
 
 <hr class="chap x-ebookmaker-drop" aria-hidden="true">
 <div class="chapter">
-
 <p><span class="pagenum" id="Page_5">[Pg 5]</span></p>
-
-
-  <h2 class="nobreak" id="THE_BIBLE_SHOULD_IT_BE_IN_THE">
+  <p class="center fm-xl">
     THE BIBLE: SHOULD IT BE IN THE
     SCHOOL ROOM?
-  </h2>
+  </p>
 </div>
 
 
