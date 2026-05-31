@@ -325,8 +325,6 @@ p.drop-cap::first-letter {
     </style>
 </head>
 <body>
-<main>
-
 
 <p><span class="pagenum" id="Page_1">[Pg 1]</span></p>
 
@@ -425,6 +423,7 @@ Fifteen Reasons Why the Bible Should Not Be in the School Room
 </table>
 </nav>
 
+<main>
 
 <hr class="chap x-ebookmaker-drop" aria-hidden="true">
 <div class="chapter">
@@ -555,11 +554,13 @@ of public school education, under the same conditions,
 no one will deny that its use would be
 unhesitatingly rejected.&#x2060;<a id="FNanchor_1_1" href="#Footnote_1_1" class="fnanchor">[1]</a>&#x2060;</p>
 
+<div class="footnotes">
 <div class="footnote"><p><a id="Footnote_1_1" href="#FNanchor_1_1" class="label">[1]</a> Religionists in some places are now opposing the
 use of Wells’ “Outline of History” in high schools
 and colleges because some of its views are not
 orthodox and conventional. Yet they, a minority,
 would force their Bible by law upon all.</p></div>
+</div>
 
 <h3 id="Is_the_Bible_a_Religious_and_Sectarian_Book">
   <span class="smcap">Is the Bible a Religious and Sectarian Book?</span>
@@ -2966,5 +2967,6 @@ this BIBLE, yet to it all other books must
 conform.</p>
 
 </main>
+
 </body>
 </html>
