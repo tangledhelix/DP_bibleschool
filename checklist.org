@@ -5,16 +5,16 @@
 "The Bible, should it be in the school room?" by Steiner, Franklin
 
 * Things to revisit
-- [ ] Possible abbreviations: see table in below notes.
+- [X] Possible abbreviations: see table in below notes.
 - [X] 23.png: ~of the soul; ... But true~ -- leave spacing as-is
-- [ ] 05.png: Chapter I subtitle: centered, not hanging indent
-- [ ] 16.png: Chapter II subtitle: centered, not hanging indent
-- [ ] 17.png: "odium theologicum" (Latin?)
-- [ ] 38.png: Chapter III subtitle: centered, not hanging indent
-- [ ] 04.png: right-alignment for signature
-- [ ] 12.png: poetry
-- [ ] 14.png: poetry (4x)
-- [ ] 61.png: poetry
+- [X] 05.png: Chapter I subtitle: centered, not hanging indent
+- [X] 16.png: Chapter II subtitle: centered, not hanging indent
+- [X] 17.png: "odium theologicum" (Latin?)
+- [X] 38.png: Chapter III subtitle: centered, not hanging indent
+- [X] 04.png: right-alignment for signature
+- [X] 12.png: poetry
+- [X] 14.png: poetry (4x)
+- [X] 61.png: poetry
 * Transcriber Notes
 - text version contains ~=bold text=~ markup
 - html version: Table of Contents was added.
@@ -417,7 +417,7 @@ For each image:
 - [X] If any images were modified substantially (including removing a library sticker or stamp), add a TN. Place the new image in the public domain in the TN. This is a PG requirement.
 - [X] If fabricating your own cover, add the TN as noted in [[https://www.pgdp.net/wiki/DP_Official_Documentation:PP_and_PPV/Easy_Epub/Cover][Easy_Epub/Cover]].
 *** Check "things to revisit"
-- [ ] Check revisit list for anything left for the HTML version
+- [X] Check revisit list for anything left for the HTML version
 *** Add TN
 - [ ] Add transcriber's notes, example follows.
 #+begin_src html
