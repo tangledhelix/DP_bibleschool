@@ -1004,7 +1004,7 @@ voice in opposition to the introduction of the
 Bible in the school room, bibliolaters immediately
 raise the hue and cry, “Enemy of the
 Bible!” They do this as a means of starting
-the “odium theologicum.” Their tactics here
+the “<span lang="la">odium theologicum</span>.” Their tactics here
 are intended not to answer the arguments of
 their opponents, but to crush them by opprobrium.
 The statement that opponents of the
@@ -1278,8 +1278,8 @@ itself. Its laws are divine, and not human. Its
 essential interests lie beyond the reach and range
 of human governments. <em>United with the government,
 religion never rises above the merest superstition;
-united with religion, government never
-rises above the merest despotism</em>; and all history
+united with religion, government <span id="TN1">never
+rises above the merest despotism</span></em>; and all history
 shows us that the more widely and completely they
 are separated, the better it is for both.” (page 248.)</p>
 
@@ -1312,8 +1312,8 @@ also see to it that religious sects keep their hands
 off each other.” (page 250.)</p>
 
 <p>“Government is an organization for particular
-purposes. It is not almighty and we are not to
-look to it for everything. The great bulk of human
+purposes. <span id="TN2">It is not almighty and we are not to
+look</span> to it for everything. The great bulk of human
 affairs and human interests is left by any free
 <span class="pagenum" id="Page_25">[Pg 25]</span>government to individual enterprise and individual
 action. Religion is eminently one of those interests
@@ -1635,8 +1635,8 @@ value the blessings of our free government.” (page
 <p>This case was decided by the supreme court
 of the state on October 9, 1902. It was the
 case of Daniel Freeman <abbr title="versus" lang="la">vs.</abbr> School District <abbr title="Number">No.</abbr>
-21, appealed from Gage county. The teacher,
-summoned as a witness, admitted having read
+21, appealed from Gage county. <span id="TN3">The teacher,
+summoned as a witness</span>, admitted having read
 the Bible; that she considered the exercises
 conducted as religious exercises, held them as
 such, and believed it to be her duty to do so.
@@ -1684,7 +1684,7 @@ by the others. Books containing such
 translations have been committed to the flames as
 heretical, and their translators, printers, publishers,
 and distributors persecuted, imprisoned, tortured
-and put to death for participating in their production
+and <span id="TN4">put to death for participating in their production</span>
 and distribution. The several popular versions
 differ in some particulars from each other, and all
 differ from the Catholic canon, both in rendition
@@ -2080,7 +2080,7 @@ the ancient Hebrew, practically a dead language
 at the beginning of the alleged Christian
 era. Many translations have been made,
 of which John E. Remsburg says, after speaking
-of the English versions, Wicliffe’s, Tyndale’s,
+of the English versions, <span id="TN5">Wicliffe’s</span>, Tyndale’s,
 King James’s, the New Version, and the
 Douay: “The foregoing are but a few of the
 numerous versions of the Bible, ancient and
@@ -2279,7 +2279,7 @@ of children by each mother would be reduced
 to forty-four.</p>
 
 <p>“Dan in the first generation had but one
-son (<abbr title="Genesis">Gen.</abbr> <abbr title="46">xlvi</abbr>, 23), and yet in the fourth generation
+son (<span id="TN6"><abbr title="Genesis">Gen.</abbr> <abbr title="46">xlvi</abbr>, 23</span>), and yet in the fourth generation
 his descendants had increased to 62,700
 warriors (<abbr title="Numbers">Num.</abbr> <abbr title="2">ii</abbr>, 26), or 64,400 (<abbr title="Numbers">Num.</abbr>
 <abbr title="26">xxvi</abbr>, 43). Each of his sons and grandsons
@@ -2946,7 +2946,7 @@ in these words:</p>
       <div class="verse indent1">Texts of despair or hope, of joy or moan;</div>
       <div class="verse indent1">While swings the sea, while mists the mountains shroud,</div>
       <div class="verse indent1">While thunder’s surges burst on cliffs of cloud,</div>
-      <div class="verse indent1">Still at the prophet’s feet the nations sit.”</div>
+      <div class="verse indent1"><span id="TN7">Still</span> <span id="TN8">at the prophet’s feet the nations sit</span>.”</div>
     </div>
   </div>
 </div>
@@ -2956,6 +2956,46 @@ this BIBLE, yet to it all other books must
 conform.</p>
 
 </main>
+
+<div class="transnote">
+<h2 class="nobreak">Transcriber’s Note</h2>
+
+<p>
+Some inconsistencies in spelling, hyphenation, and punctuation have been
+retained.
+</p>
+
+<ul>
+<li>
+A table of contents was added.
+</li>
+<li>
+<abbr title="page">p.</abbr> 24: changed “depotism” to “despotism” (<a href="#TN1">never rises above the merest despotism</a>)
+</li>
+<li>
+<abbr title="page">p.</abbr> 24: changed “almightly” to “almighty” (<a href="#TN2">It is not almighty and we are not to look</a>)
+</li>
+<li>
+<abbr title="page">p.</abbr> 31: changed “summonded” to “summoned” (<a href="#TN3">The teacher, summoned as a witness</a>)
+</li>
+<li>
+<abbr title="page">p.</abbr> 32: changed “ther” to “their” (<a href="#TN4">put to death for participating in their production</a>)
+</li>
+<li>
+<abbr title="page">p.</abbr> 41: “<a href="#TN5">Wicliffe’s</a>” left as-printed; this name has many variant spellings.
+</li>
+<li>
+<abbr title="page">p.</abbr> 46: changed incorrect citation “xl” to “xlvi” (<a href="#TN6">Gen. xlvi. 23</a>)
+</li>
+<li>
+<abbr title="page">p.</abbr> 61: changed “prohpet’s” to “prophet’s” (<a href="#TN7">Still at the prophet’s feet</a>)
+</li>
+<li>
+<abbr title="page">p.</abbr> 61: changed “nation’s” to “nations” (<a href="#TN8">at the prophet’s feet the nations sit</a>)
+</li>
+</ul>
+
+</div>
 
 </body>
 </html>
