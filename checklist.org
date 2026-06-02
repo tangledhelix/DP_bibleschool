@@ -15,6 +15,39 @@
 - [X] 12.png: poetry
 - [X] 14.png: poetry (4x)
 - [X] 61.png: poetry
+- [ ] Don't use punctuation ~:~ or ~?~ in title for SR.
+- [X] Add ~abbr[title]~ to CSS, rebuild books, check for underlines
+- [X] Reconvert KEPUB with Calibre; check on Kobo again
+** Ebook review
+*** Justification (or lack thereof)
+- Kindle Preview on Mac ignored my CSS and justified text anyway. It has no setting to change, but in my iPhone app I turned that off and ragged-right is working fine.
+- Actual Kindle apps have a setting; this is only a Previewer problem.
+*** Punctuation in book title
+- Apple Books, Mac: title = ~The Bible_ should it be in the school room_~
+- ADE: title is the same
+- Title tag in the underlying XHTML looks fine.
+  #+begin_src html
+  <title>The Bible: should it be in the school room? | Project Gutenberg</title>
+  #+end_src
+- Oddly, =content.opf= (which is XML) has a different title! Where did this version come from?
+  #+begin_src xml
+  <dc:title id="id-1">The Bible, should it be in the school room</dc:title>
+  #+end_src
+- And =toc.ncx= has the version seen by the e-readers:
+  #+begin_src xml
+  <docTitle>
+    <text>The Bible_ should it be in the school room_</text>
+  </docTitle>
+  #+end_src
+- =toc.xhtml= is the same as =toc.ncx=
+- It seems that maybe ebookmaker stripped ~:~ and ~?~ from the title and I should avoid those in the title, and use the title that appears in the DP project page.
+*** Page breaks
+- Google Play Books ignores page breaks
+*** Abbreviation underlines
+- Kobo converted by Calibre is underling ~<abbr>~
+- Does Kobo EPUB convert do that too?
+- Still there after a convert with ~abbr[title]~ ...
+- But EPUB3 in Calibre reader doesn't do it.
 * Transcriber Notes
 - text version contains ~=bold text=~ markup
 - html version: Table of Contents was added.
@@ -449,7 +482,7 @@ An example entry might look like this. Use the book's page numbers, not PNG numb
 Perform these validation steps before submitting your book. Validation is also helpful while customizing the HTML and CSS above.
 - [X] Use ~HTML → HTML5 Validator~. Fix any reported problems.
 - [X] Remove unused CSS. ~HTML → PPhtml~ can help with this. Alternatively, check manually or use a tool such as the Firefox addons Firebug (with CSS Usage extension) or Dust-Me Selectors.
-- [ ] Use ~HTML → CSS Validator~. Fix any reported problems.
+- [X] Use ~HTML → CSS Validator~. Fix any reported problems.
   - Validate as CSS 2.1
   - CSS3 is acceptable if current status is ~REC~ on [[https://www.w3.org/Style/CSS/current-work][this page]]
     - Look up the CSS on MDN to figure out which module it comes from; then check that module's status
@@ -458,10 +491,10 @@ Perform these validation steps before submitting your book. Validation is also h
       - ~display: flex~ is acceptable but ~flex:~ is not permitted!
       - ~justify-content~ may only be ~center~ and no other value
     - ~speak-as: spell-out~ if a screen reader should spell out an acronym rather than read as a word
-    - [ ] if uploading CSS3, leave a note for WWer about it.
-- [ ] Use ~HTML → HTML Link Checker~. Fix any reported problems.
+    - [X] if uploading CSS3, leave a note for WWer about it.
+- [X] Use ~HTML → HTML Link Checker~. Fix any reported problems.
 *** Compare text and HTML
-- [ ] ~Tools → PPcomp...~ and compare the text and html files.
+- [X] ~Tools → PPcomp...~ and compare the text and html files.
   - Suppress word join (NoBreak) because GG2 uses them for footnotes
 *** Review HTML
 The iPhone/iPad simulator can't read from the Mac's filesystem, so you need a
@@ -471,8 +504,8 @@ web server for them to talk to. Go to the book's directory and run
 To use multi-touch gestures on iPhone/iPad Simulator, hold the Option key.
 This lets you do pinch gestures. To track two fingers together (no pinch),
 e.g. for scrolling, use Shift-Option instead.
-- [ ] Scroll through in multiple browsers (Safari, Chrome, Firefox, etc.)
-- [ ] Pay particular attention to complex items like tables, poetry
+- [X] Scroll through in multiple browsers (Safari, Chrome, Firefox, etc.)
+- [X] Pay particular attention to complex items like tables, poetry
 ** Ebook generation
 *** Notes on rendering
 **** CSS
@@ -496,31 +529,31 @@ e.g. for scrolling, use Shift-Option instead.
 - Also a utility ~kepubify~ (link below) that converts; it's unclear what this conversion does that's any better than just renaming the file. Changing the filename is enough to invoke a different / better rendering engine on Kobo devices.
   - PG is looking at doing KEPUB files, but using Calibre, not kepubify.
 *** Build Ebook, initial cursory review
-- [ ] HTML → Ebookmaker (online) - build EPUB2 and EPUB3
-- [ ] Review in Apple Books; focus on page breaks and major issues
+- [X] HTML → Ebookmaker (online) - build EPUB2 and EPUB3
+- [X] Review in Apple Books; focus on page breaks and major issues
 ** Build and upload ebooks
-- [ ] If any changes were made from previous step, rebuild EPUB3
-- [ ] Optional: Convert EPUB3 to KEPUB with Calibre
-- [ ] Optional: Upload EPUB3 with [[https://www.amazon.com/gp/sendtokindle][Send to Kindle]]
-- [ ] Add epub3 to Apple Books
-- [ ] Optional: Add EPUB3, KEPUB to Dropbox for Kobo, Android, etc
+- [X] If any changes were made from previous step, rebuild EPUB3
+- [X] Optional: Convert EPUB3 to KEPUB with Calibre
+- [X] Optional: Upload EPUB3 with [[https://www.amazon.com/gp/sendtokindle][Send to Kindle]]
+- [X] Add epub3 to Apple Books
+- [X] Optional: Add EPUB3, KEPUB to Dropbox for Kobo, Android, etc
 *** Ebook review
 Don't necessarily have to do *all* of these, but these are what I have.
-- [ ] Review Ebook ToC in at least one e-reader, for structure & content
+- [X] Review Ebook ToC in at least one e-reader, for structure & content
   - Can try using ~title=~ attr if a header title has footnote marker etc.
-- [ ] Mac
-  - [ ] Adobe Digital Editions (epub2)
-  - [ ] Apple Books
-  - [ ] Kindle Previewer (epub3)
-  - [ ] Calibre (epub3)
-- [ ] Phone
-  - [ ] Apple Books (iPhone)
-  - [ ] Kindle (iPhone)
-- [ ] Tablet
-  - [ ] Kindle (Android)
-  - [ ] Google Play Books - Android (Dropbox)
-- [ ] E-ink
-  - [ ] Kobo Libra Colour (kepub)
+- [X] Mac
+  - [X] Adobe Digital Editions (epub2)
+  - [X] Apple Books
+  - [X] Kindle Previewer (epub3)
+  - [X] Calibre (epub3)
+- [X] Phone
+  - [X] Apple Books (iPhone)
+  - [X] Kindle (iPhone)
+- [X] Tablet
+  - [X] Kindle (Android)
+  - [X] Google Play Books - Android (Dropbox)
+- [-] E-ink
+  - [X] Kobo Libra Colour (kepub)
   - [ ] Kindle Colorsoft
 ** Smooth Reading
 *** Submit to SR pool
