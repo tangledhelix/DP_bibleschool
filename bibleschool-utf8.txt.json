@@ -1,7 +1,7 @@
 {
-  "md5checksum": "4aa39a848d786e552e061e2b5afd242f",
-  "insertpos": "1719.67",
-  "insertpospeer": "1807.0",
+  "md5checksum": "2c6722002d7f46e634c377031c8a266e",
+  "insertpos": "1812.45",
+  "insertpospeer": "1814.0",
   "pagedetails": {
     "01": {
       "index": "1.0",
@@ -238,133 +238,133 @@
       "label": "Pg 39"
     },
     "40": {
-      "index": "1135.14",
+      "index": "1135.44",
       "style": "\"",
       "number": "+1",
       "label": "Pg 40"
     },
     "41": {
-      "index": "1161.54",
+      "index": "1162.54",
       "style": "\"",
       "number": "+1",
       "label": "Pg 41"
     },
     "42": {
-      "index": "1190.19",
+      "index": "1191.19",
       "style": "\"",
       "number": "+1",
       "label": "Pg 42"
     },
     "43": {
-      "index": "1220.25",
+      "index": "1221.25",
       "style": "\"",
       "number": "+1",
       "label": "Pg 43"
     },
     "44": {
-      "index": "1247.32",
+      "index": "1248.32",
       "style": "\"",
       "number": "+1",
       "label": "Pg 44"
     },
     "45": {
-      "index": "1273.54",
+      "index": "1274.54",
       "style": "\"",
       "number": "+1",
       "label": "Pg 45"
     },
     "46": {
-      "index": "1301.21",
+      "index": "1302.21",
       "style": "\"",
       "number": "+1",
       "label": "Pg 46"
     },
     "47": {
-      "index": "1330.0",
+      "index": "1331.0",
       "style": "\"",
       "number": "+1",
       "label": "Pg 47"
     },
     "48": {
-      "index": "1357.55",
+      "index": "1358.55",
       "style": "\"",
       "number": "+1",
       "label": "Pg 48"
     },
     "49": {
-      "index": "1386.53",
+      "index": "1387.53",
       "style": "\"",
       "number": "+1",
       "label": "Pg 49"
     },
     "50": {
-      "index": "1412.19",
+      "index": "1413.19",
       "style": "\"",
       "number": "+1",
       "label": "Pg 50"
     },
     "51": {
-      "index": "1445.0",
+      "index": "1446.0",
       "style": "\"",
       "number": "+1",
       "label": "Pg 51"
     },
     "52": {
-      "index": "1472.38",
+      "index": "1473.38",
       "style": "\"",
       "number": "+1",
       "label": "Pg 52"
     },
     "53": {
-      "index": "1501.44",
+      "index": "1502.44",
       "style": "\"",
       "number": "+1",
       "label": "Pg 53"
     },
     "54": {
-      "index": "1541.0",
+      "index": "1542.0",
       "style": "\"",
       "number": "+1",
       "label": "Pg 54"
     },
     "55": {
-      "index": "1576.0",
+      "index": "1577.0",
       "style": "\"",
       "number": "+1",
       "label": "Pg 55"
     },
     "56": {
-      "index": "1607.35",
+      "index": "1608.35",
       "style": "\"",
       "number": "+1",
       "label": "Pg 56"
     },
     "57": {
-      "index": "1637.57",
+      "index": "1638.57",
       "style": "\"",
       "number": "+1",
       "label": "Pg 57"
     },
     "58": {
-      "index": "1664.13",
+      "index": "1665.13",
       "style": "\"",
       "number": "+1",
       "label": "Pg 58"
     },
     "59": {
-      "index": "1692.54",
+      "index": "1693.54",
       "style": "\"",
       "number": "+1",
       "label": "Pg 59"
     },
     "60": {
-      "index": "1724.56",
+      "index": "1725.56",
       "style": "\"",
       "number": "+1",
       "label": "Pg 60"
     },
     "61": {
-      "index": "1752.0",
+      "index": "1753.0",
       "style": "\"",
       "number": "+1",
       "label": "Pg 61"
@@ -376,6 +376,8 @@
   "charsuites": {
     "Basic Latin": true
   },
-  "bookmarks": {},
+  "bookmarks": {
+    "Bookmark1": "1.0"
+  },
   "imagerotate": {}
 }

@@ -1,4 +1,4 @@
-
+[** SR'd by ******, June 2026, reading epub3 with Moon+ Reader Pro on an Android tablet. ]
 
 
 
@@ -52,7 +52,7 @@ foreign born, will circulate its facts and arguments.
 
 
 
-              THE BIBLE: SHOULD IT BE IN THE SCHOOL ROOM?
+[** in my epub reader (Moon+) there's no page-break before this line, which looks a bit odd.  Likely a Moon+ issue though, since there is a page-break here in Calibre. ]              THE BIBLE: SHOULD IT BE IN THE SCHOOL ROOM?
 
 
 
@@ -100,7 +100,7 @@ willing to concede that no child shall be compelled to take part in the
 Bible reading exercise against the will of its parents.
 
 Why, unlike any other school book, should it be read “without comment”?
-Why the exception? The Bible from whatever view we take it, above all
+Why the exception? The Bible[** possible missing comma (matches scan as-is) ] from whatever view we take it, above all
 other books, to be understood, must be commented upon and explained.
 The whole presents a curious medley of circumstances and positions
 which could hardly be duplicated when any other book is proposed for
@@ -143,7 +143,7 @@ himself as dependent.”--The Standard Dictionary.
 
 “Any system of faith or worship.”--Imperial Dictionary.
 
-“Action or conduct indicating a belief in, reverence for, and desire to
+“Action or conduct indicating a belief[** likely missing word "in" follows "belief". I'm not able to find this definition in the early 20th c. editions of The concise Oxford dictionary of current English I saw at Internet Archive and Hathitrust, but I did find this definition quoted again in another Franklin Steiner work: Religion and Roguery (1924), where "in" does appear after "belief": https://www.google.com/books/edition/Religion_and_Roguery/CQE4AAAAIAAJ?hl=en&gbpv=1&printsec=frontcover&bsq=%22indicating%20a%20belief%20in%22 (matches DP scan as-is) ], reverence for, and desire to
 please a divine ruling power.”--Oxford Dictionary.
 
 We are aware that a class of modern thinkers define and understand
@@ -258,7 +258,7 @@ I shew you a mystery; we shall not all sleep, but we shall all be
 changed.” The Douay Version renders the same verse, “Behold, I tell
 you a mystery. We shall all indeed rise again: _but we shall not all
 be changed_.” Luke ii, 14, is translated in the King James, “Glory to
-God in the highest, and on earth _peace to men of good will_.” The
+God in the highest, and on earth _peace of[** "of" may be typo for "to" (matches scan as-is) ] men of good will_.” The
 Protestant “Revised Version” gives it still different:
 
     “Glory to God in the highest,
@@ -527,7 +527,7 @@ reproduction:
   concede equally to all others. It is not a question of majorities
   or minorities, for if the conscience of the majority is to be the
   standard, then there is no such thing as conscience at all. It is
-  against the predominance and power of majorities that the right of
+  against the predominance and power of majorities that the right[** possible typo for "rights", see plural verb forms later in sentence (matches scan as-is) ] of
   conscience are protected: and have need to be.
 
   “For--and that is the gist of the thing--the reading of the Holy
@@ -613,7 +613,7 @@ unanimously held:
   widely and completely they are separated, the better it is for both.”
   (page 248.)
 
-  “Religion is not--Much less is Christianity or any other system of
+  “Religion is not--Much less in[** "in" may be typo for "is" (matches scan as-is) ] Christianity or any other system of
   religion--named in the preamble of the Constitution of the United
   States as one of the declared _objects_ of government; nor is it
   mentioned in the clause in question, in our own constitution, as
@@ -935,7 +935,7 @@ A motion for a rehearing of this case was denied.
 
                            THE ILLINOIS CASE
 
-This was the case of The People _ex rel._ Jeremiah Ring _et al._,
+This was the case of The People _ex rel[** Wikipedia and Google Books suggest there should be a period after "rel", e.g.: https://www.google.com/books/edition/Reports_of_Cases_at_Law_and_in_Chancery/VAJDAQAAMAAJ?hl=en&gbpv=1&printsec=frontcover&bsq=%22people%20ex%20rel%22%20ring (matches scan as-is) ]_ Jeremiah Ring _et al._,
 Plaintiffs in Error, vs. the Board of Education of District 24, etc.,
 Defendant in Error. It was decided by the Illinois Supreme Court in
 June, 1910, and is to be found in the Reports of the state, Vol. 245,
@@ -1112,45 +1112,44 @@ must call upon the schoolmaster to help them.
 
 II. _The Age of the Bible._ A book written over two thousand years
 ago, in the infancy of the human intelligence, before the birth of
-scientific knowledge, has no place as a text book in the schools of
-the twentieth century. But, some will urge, are not other works of
-antiquity studied in the schools? True, but under these circumstances:
-They are used in higher education; they are used for a particular
-purpose, as, for instance, the study of the language, history, or
-habits of an ancient people; there are not the controversies or other
-objectionable features connected with their study that would follow
-the Bible. Why need we go to a book so old as the Bible for our
-ideals? Have we not them among ourselves? We think we have. We think
-our Abraham Lincoln a greater and a better man than Abraham of Ur of
-the Chaldees. We think our Ingersoll and our Webster were greater
-orators than Peter and Paul. We think Shakespeare, Byron, Burns, Moore,
-Shelley, and our own Longfellow were greater poets than the writers
-of the Psalms. We think Darwin knew more about biology, Herschel more
-about astronomy, Lyell more about geology, Mill more about logic and
-political economy, and almost any physician more about medicine and
-surgery than were known by Moses or any other man, real or imagined,
-who it is alleged wrote the Bible. We think that Herbert Spencer was
-a greater philosophical genius of all the biblical writers, and that
-Benjamin Franklin was a wiser and a cleaner man morally than was
-Solomon. We think that Edison has done more good in the world than
-did Ezekiel, and that Isaac Newton proclaimed greater truths than did
-Isaiah. We think that Buddha, Confucius, Manu, and Zoroaster taught as
-good systems of morals as did Jesus. If Jesus died to save the world,
-thousands have also died in behalf of or on account of Jesus so the
-debt has many times been repaid. If Jesus died in behalf of principles
-which he deemed to be good, so did Bruno, Savonarola, Legate, Wightman,
-Ferrer, and others too numerous to mention. Bible virtues of any real
-value are strictly human virtues to be found in all ages and climes,
-among all races and religions. Is it possible that for moral teaching
-we must revert to the book of a people who were so far behind their
-neighbors that except Saul and Jonathan they had “neither sword nor
-spear in the hand of any of the people”? (1 Samuel xiii, 22.) And a
-people who had no blacksmiths, but who “went down to the Philistines
-to sharpen every man his share, and his coulter, and his axe, and his
-mattock”? (verses 19 and 20). And a people who had no mechanics among
-them, but when their king wanted to build a house for himself had to
-send to a “heathen,” Hiram, king of Tyre, for masons and carpenters? (2
-Samuel v, 11.)
+scientific knowledge, has no place as a text book in the schools of the
+twentieth century. But, some will urge[** possible missing comma (matches scan as-is) ] are not other works of antiquity
+studied in the schools? True, but under these circumstances: They are
+used in higher education; they are used for a particular purpose, as,
+for instance, the study of the language, history, or habits of an
+ancient people; there are not the controversies or other objectionable
+features connected with their study that would follow the Bible. Why
+need we go to a book so old as the Bible for our ideals? Have we not
+them among ourselves? We think we have. We think our Abraham Lincoln a
+greater and a better man than Abraham of Ur of the Chaldees. We think
+our Ingersoll and our Webster were greater orators than Peter and
+Paul. We think Shakespeare, Byron, Burns, Moore, Shelley, and our own
+Longfellow were greater poets than the writers of the Psalms. We think
+Darwin knew more about biology, Herschel more about astronomy, Lyell
+more about geology, Mill more about logic and political economy, and
+almost any physician more about medicine and surgery than were known
+by Moses or any other man, real or imagined, who it is alleged wrote
+the Bible. We think that Herbert Spencer was a greater philosophical
+genius of[** "of" may be error for "than" (matches scan as-is) ] all the biblical writers, and that Benjamin Franklin was a
+wiser and a cleaner man morally than was Solomon. We think that Edison
+has done more good in the world than did Ezekiel, and that Isaac
+Newton proclaimed greater truths than did Isaiah. We think that Buddha,
+Confucius, Manu, and Zoroaster taught as good systems of morals as
+did Jesus. If Jesus died to save the world, thousands have also died
+in behalf of or on account of Jesus so the debt has many times been
+repaid. If Jesus died in behalf of principles which he deemed to be
+good, so did Bruno, Savonarola, Legate, Wightman, Ferrer, and others
+too numerous to mention. Bible virtues of any real value are strictly
+human virtues to be found in all ages and climes, among all races
+and religions. Is it possible that for moral teaching we must revert
+to the book of a people who were so far behind their neighbors that
+except Saul and Jonathan they had “neither sword nor spear in the hand
+of any of the people”? (1 Samuel xiii, 22.) And a people who had no
+blacksmiths, but who “went down to the Philistines to sharpen every man
+his share, and his coulter, and his axe, and his mattock”? (verses 19
+and 20). And a people who had no mechanics among them, but when their
+king wanted to build a house for himself had to send to a “heathen,”
+Hiram, king of Tyre, for masons and carpenters? (2 Samuel v, 11.)
 
 III. _The Bible is not a book_, but a collection of books, written
 hundreds of years apart, and arbitrarily, in the midst of great and
@@ -1783,16 +1782,8 @@ been retained.
 This file uses _underscores_ to indicate italic text and =equals= to
 indicate bold text. Small capitals changed to all capitals.
 
-p. 8: added “in” after “belief” (Action or conduct indicating a belief
-in)
-
-p. 12: changed “of” to “to” (on earth peace to men of good will)
-
 p. 24: changed “depotism” to “despotism” (never rises above the merest
 despotism)
-
-p. 24: changed “in” to “is” (Much less is Christianity or any other
-system)
 
 p. 24: changed “almightly” to “almighty” (It is not almighty and we are
 not to look)
@@ -1808,6 +1799,8 @@ spellings.
 
 p. 46: changed incorrect citation “xl” to “xlvi” (Gen. xlvi. 23)
 
-p. 61: changed “prohpet’s” to “prophet’s” and “nation’s” to “nations”
-(Still at the prophet’s feet the nations sit)
+p. 61: changed “prohpet’s” to “prophet’s” (Still at the prophet’s feet)
+
+p. 61: changed “nation’s” to “nations” (at the prophet’s feet the
+nations sit)
 
