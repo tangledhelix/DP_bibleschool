@@ -15,7 +15,7 @@
 - [X] 12.png: poetry
 - [X] 14.png: poetry (4x)
 - [X] 61.png: poetry
-- [ ] Don't use punctuation ~:~ or ~?~ in title for SR.
+- [X] Don't use punctuation ~:~ or ~?~ in title for SR.
 - [X] Add ~abbr[title]~ to CSS, rebuild books, check for underlines
 - [X] Reconvert KEPUB with Calibre; check on Kobo again
 ** Ebook review
@@ -552,9 +552,9 @@ Don't necessarily have to do *all* of these, but these are what I have.
 - [X] Tablet
   - [X] Kindle (Android)
   - [X] Google Play Books - Android (Dropbox)
-- [-] E-ink
+- [X] E-ink
   - [X] Kobo Libra Colour (kepub)
-  - [ ] Kindle Colorsoft
+  - [X] Kindle Colorsoft
 ** Smooth Reading
 *** Submit to SR pool
 Submit for a decent length of time, up to the maximum. Check what's in ~ebooks/~ folder, it'll all be uploaded.
@@ -565,7 +565,7 @@ Submit for a decent length of time, up to the maximum. Check what's in ~ebooks/~
 - [X] Go to [[https://www.pgdp.net/c/project.php?id=projectID68cd8bd790a52][project page]], select SR time period, upload ~bibleschool-sr.zip~
 - [X] Subscribe to “user uploads a SR report” item
 - [X] Update my Trello project board with due date, set card to SR status
-- [ ] If time permits, smooth read it myself as well
+- [X] If time permits, smooth read it myself as well
 *** Process SR feedback
 - [ ] After SR is finished, processed SR feedback into project.
 - [ ] Add *anonymized* files to git, e.g. ~bibleschool-smoothread01.txt~

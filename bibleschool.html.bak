@@ -151,7 +151,7 @@ p.noindent { text-indent: 0; }
 }
 
 /* Don't visibly style abbr tags. Browsers usually underline them. */
-abbr {
+abbr, abbr[title] {
     text-decoration: none;
 }
 /* abbrs that should be read letter-by-letter */
@@ -169,7 +169,7 @@ abbr.spell { speak: spell-out; }
 <body>
 
 <p><span class="pagenum" id="Page_1">[Pg 1]</span></p>
-<p class="center"><span class="fm-l">LITTLE BLUE BOOK NO. <b>706</b></span><br>
+<p class="center"><span class="fm-l">LITTLE BLUE BOOK <abbr title="NUMBER">NO.</abbr> <b>706</b></span><br>
 Edited by E. Haldeman-Julius</p>
 
 <h1 class="p2">The Bible: Should It Be in
@@ -595,7 +595,7 @@ by the law of the land to send their children
 there. We will take just a few illustrations
 from hundreds.</p>
 
-<p>In the King James Version 1 Corinthians <abbr title="15">xv</abbr>,
+<p>In the King James Version <abbr title="First">1</abbr> Corinthians <abbr title="15">xv</abbr>,
 51, is translated: “Behold, I shew you a mystery;
 we shall not all sleep, but we shall all be
 changed.” The Douay Version renders the
@@ -1883,7 +1883,7 @@ that for moral teaching we must revert to the
 book of a people who were so far behind their
 neighbors that except Saul and Jonathan they
 had “neither sword nor spear in the hand of
-any of the people”? (1 Samuel <abbr title="13">xiii</abbr>, 22.) And
+any of the people”? (<abbr title="First">1</abbr> Samuel <abbr title="13">xiii</abbr>, 22.) And
 a people who had no blacksmiths, but who
 “went down to the Philistines to sharpen every
 man his share, and his coulter, and his axe,
@@ -1891,7 +1891,7 @@ and his mattock”? (verses 19 and 20). And a
 people who had no mechanics among them, but
 when their king wanted to build a house for
 himself had to send to a “heathen,” Hiram,
-king of Tyre, for masons and carpenters? (2
+king of Tyre, for masons and carpenters? (<abbr title="Second">2</abbr>
 Samuel <abbr title="5">v</abbr>, 11.)</p>
 
 <p><abbr title="3">III.</abbr> <i>The Bible is not a book</i>, but a collection
@@ -1997,7 +1997,7 @@ or as Professor Clifford has said, it is
 science is the human universe; that is to say,
 every thing that is, or has been, or may be
 related to man” (Lectures and Essays, page
-24, R. P. A. Edition). Science is progressive.
+24, <abbr>R. P. A.</abbr> Edition). Science is progressive.
 It depends upon the continued advance of
 knowledge, is ever alert and critical, calls
 everything into question and accepts nothing
@@ -2058,12 +2058,12 @@ authority and teaching.</p>
 <p><abbr title="9">IX.</abbr> The Bible has no place in the school
 room because it states as facts the grossest absurdities.
 It speaks of an ax swimming in the
-water (2 Kings <abbr title="6">vi</abbr>, 5); it speaks of “an hundred
+water (<abbr title="Second">2</abbr> Kings <abbr title="6">vi</abbr>, 5); it speaks of “an hundred
 and four score and five thousand” men
 who arose early in the morning only to find
 that “they were all dead corpses” (Isaiah
 <abbr title="37">xxxvii</abbr>, 36); while we read in the ninth and
-tenth chapters of 1 Kings that Solomon had
+tenth chapters of <abbr title="First">1</abbr> Kings that Solomon had
 more gold and silver than there were in the
 world at that time; that the spies sent into
 Caanan “cut down from thence a branch with
@@ -2078,8 +2078,8 @@ chews its cud like the cow (<abbr title="Leviticus">Lev.</abbr> <abbr title="2">
 <p>We will call the reader’s attention to the very
 absurd story of the Israelites’ exodus from
 Egypt, as shown by R. B. Westbrook, in his
-work, “The Eliminator: or Skeleton Keys to
-Sacerdotal Mysteries”; “The number of fighting
+work, “<cite class="nonitalic">The Eliminator: or Skeleton Keys to
+Sacerdotal Mysteries</cite>”; “The number of fighting
 men who marched out of Egypt is nowhere
 estimated at less than 600,000, and if this represents
 only one-fifth of the population, the
@@ -2215,7 +2215,7 @@ us are the grand truths of Nature?</p>
 schools because it teaches oriental tyranny and
 kingcraft, against which our fathers fought
 and offered their life blood. “Fear God, honor
-the king” (1 Peter <abbr title="2">ii</abbr>, 17). “Submit yourselves
+the king” (<abbr title="First">1</abbr> Peter <abbr title="2">ii</abbr>, 17). “Submit yourselves
 to every ordinance of man for the Lord’s sake:
 whether it be to the king, as supreme; or to
 the governors, as unto them that are sent by
@@ -2257,7 +2257,7 @@ husbands.... For after this manner in the
 old time the holy women also, who trusted in
 God, adorned themselves, being in subjection to
 their own husbands; even as Sarah obeyed
-Abraham calling him lord” (1 Peter <abbr title="3">iii</abbr>, 1–6).
+Abraham calling him lord” (<abbr title="First">1</abbr> Peter <abbr title="3">iii</abbr>, 1–6).
 “Let women learn in silence with all subjection.
 But I suffer not a woman to teach, nor
 to usurp authority over a man, but to be in
@@ -2272,7 +2272,7 @@ ponder over these words of the apostle, as well
 as over many other biblical passages. We would
 call their attention to the despicable idea of
 marriage taught by Jesus in <abbr title="Matthew">Matt.</abbr> <abbr title="19">xix</abbr>, 10–12,
-and by Paul in the seventh chapter of 1 Corinthians.
+and by Paul in the seventh chapter of <abbr title="First">1</abbr> Corinthians.
 In the Old Testament the father selects
 a husband for his daughter, and is allowed
 to sell her as a slave (<abbr title="Exodus">Ex.</abbr> <abbr title="21">xxi</abbr>, 7). Let
@@ -2292,7 +2292,7 @@ read and think of the following:</p>
 up evil against thee in thine own house, and
 I will take thy wives before thine eyes, and
 give them unto thy neighbor, and he shall lie
-with thy wives in the sight of the sun” (2
+with thy wives in the sight of the sun” (<abbr title="Second">2</abbr>
 Samuel <abbr title="12">xii</abbr>, 11).</p>
 
 <p>“Their children shall be dashed to pieces
@@ -2377,7 +2377,7 @@ ye were afraid, shall follow close after you
 there in Egypt; and there ye shall die” (verse
 16). When Israel and Syria were without a
 war for three years it was considered a matter
-worthy of special mention (1 Kings <abbr title="22">xxii</abbr>, 1);
+worthy of special mention (<abbr title="First">1</abbr> Kings <abbr title="22">xxii</abbr>, 1);
 and God gave Judah a special dispensation from
 war. Jesus said: “I came not to send peace
 but a sword” (Matthew <abbr title="10">x</abbr>, 34). He said (Luke
@@ -2432,11 +2432,11 @@ committed all judgment to the son</em>” (<abbr title="verse">v.</abbr> 22).</p
 
 <p>“And the anger of <em>the Lord</em> was kindled
 against Israel, and he moved David against
-them to say, Go, number Israel and Judah” (2
+them to say, Go, number Israel and Judah” (<abbr title="Second">2</abbr>
 Samuel <abbr title="24">xxiv</abbr>, 1).</p>
 
 <p>“And <em>Satan</em> stood up against Israel, and provoked
-David to number Israel” (1 Chronicles
+David to number Israel” (<abbr title="First">1</abbr> Chronicles
 <abbr title="21">xxi</abbr>, 1).</p>
 
 <p>“The Jews therefore said unto him, <em>It is not
@@ -2650,7 +2650,7 @@ liquors.</p>
 use of intoxicants is not only commended but
 commanded. We have space to refer to but a
 few of them. “Drink no longer water, but use
-a little wine for thy stomach’s sake” (1 Timothy
+a little wine for thy stomach’s sake” (<abbr title="First">1</abbr> Timothy
 <abbr title="5">v</abbr>, 23); “Go thy way, eat thy bread with
 joy, and drink thy wine with a merry heart,
 for God now accepteth thy good works” (<abbr title="Ecclesiastes">Eccles.</abbr>
@@ -2681,15 +2681,15 @@ a very edifying subject for a Sunday school
 lesson (See Genesis <abbr title="19">xix</abbr>, 30–38). David got drunk
 himself and danced before the ark in a state of
 <span class="pagenum" id="Page_59">[Pg 59]</span>nudity, after giving each of all the people “a
-flagon of wine” (2 Samuel <abbr title="6">vi</abbr>, 14, 16, 19). Yet
+flagon of wine” (<abbr title="Second">2</abbr> Samuel <abbr title="6">vi</abbr>, 14, 16, 19). Yet
 God said, “David ... a man after mine own
 heart, which shall fulfill all my will” (Acts.
 <abbr title="13">xiii</abbr>, 22). God also gives David two other unqualified
-certificates of character (See 1 Kings
+certificates of character (See <abbr title="First">1</abbr> Kings
 <abbr title="14">xiv</abbr>, 7, 8; <abbr title="15">xv</abbr>, 5). When Solomon erected the
 great temple he gave his laborers “twenty thousand
 baths (nearly 17,500 gallons) of wine”
-(2 Chronicles <abbr title="2">ii</abbr>, 10). Jeremiah, one of God’s
+(<abbr title="Second">2</abbr> Chronicles <abbr title="2">ii</abbr>, 10). Jeremiah, one of God’s
 favorite prophets, tempted the Rechabites, who
 were total abstainers, to drink (See Jeremiah
 <abbr title="35">xxxv</abbr>, 2). Yet this same God on another occasion
@@ -2717,7 +2717,7 @@ or is made weak.” (Romans <abbr title="14">xiv</abbr>:21.)</p>
 <p>Also, “Wherefore, if meat make my brother
 to offend, I will eat no flesh while the word
 standeth, lest I make my brother to offend.”
-(1 Corinthians <abbr title="8">viii</abbr>:13).</p>
+(<abbr title="First">1</abbr> Corinthians <abbr title="8">viii</abbr>:13).</p>
 
 <p>It will be noticed in the first that <em>flesh</em> comes
 before wine, while in the second, wine is not
@@ -2725,7 +2725,7 @@ mentioned at all. When you read the context in
 both cases you will find that Paul is merely
 <span class="pagenum" id="Page_60">[Pg 60]</span>warning his hearers against meat offered to
 idols and that wine is only mentioned incidentally.
-But when you turn to 1 Timothy, <abbr title="5">v</abbr>:23,
+But when you turn to <abbr title="First">1</abbr> Timothy, <abbr title="5">v</abbr>:23,
 Paul imperatively says, “DRINK NO LONGER
 WATER, BUT USE A LITTLE WINE FOR
 THY STOMACH’S SAKE, AND THINE OFTEN
@@ -2739,11 +2739,11 @@ could not produce a drunk. We have no space
 here to discuss this makeshift. If the reader
 is interested and wishes to pursue the subject,
 we refer him to John E. Remsburg’s book,
-“The Bible,” pages 398–399; to the article on
+“<cite class="nonitalic">The Bible</cite>,” pages 398–399; to the article on
 “Wine and Strong Drink,” in that monument
-of scholarship, “The Encyclopedia Biblica”; to
-that well-known orthodox work, Smith’s “Bible
-Dictionary,” and to “Religion and Drink,” by
+of scholarship, “<cite class="nonitalic">The Encyclopedia Biblica</cite>”; to
+that well-known orthodox work, Smith’s “<cite class="nonitalic">Bible
+Dictionary</cite>,” and to “<cite class="nonitalic">Religion and Drink</cite>,” by
 <abbr title="Reverend">Rev.</abbr> E. A. Wasson.</p>
 
 <p>Under our liquor laws as at present interpreted
